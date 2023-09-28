@@ -12,9 +12,9 @@ namespace Mercadona.Models
         public string Picture { get; set; }
 
         public int CategoryId { get; set; }
-        public virtual Category? Category { get; set; }
+        public virtual Category Category { get; set; }
 
-        public int OfferId { get; set; }
+        public int? OfferId { get; set; }
         public virtual Offer? Offer { get; set; }
 
     }
