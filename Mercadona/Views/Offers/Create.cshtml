@@ -1,0 +1,37 @@
+﻿@model Mercadona.Models.Offer
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<div class="container my-4">
+    <a asp-action="Index" class="btn btn-success float-end">Retour</a>
+    <h2>Ajouter une promotion</h2>
+
+    <form asp-action="Create" class="mt-5">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="form-group">
+            <label asp-for="Discount" class="control-label">Remise (en %)</label>
+            <input asp-for="Discount" class="form-control" />
+            <span asp-validation-for="Discount" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="StartDate" class="control-label">Date de début</label>
+            <input asp-for="StartDate" class="form-control" />
+            <span asp-validation-for="StartDate" class="text-danger"></span>
+        </div>
+        <div class="form-group">
+            <label asp-for="EndDate" class="control-label">Expiration</label>
+            <input asp-for="EndDate" class="form-control" />
+            <span asp-validation-for="EndDate" class="text-danger"></span>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-primary mt-5">Valider</button>
+        </div>
+    </form>
+</div>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

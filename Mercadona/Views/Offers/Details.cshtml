@@ -1,0 +1,38 @@
+﻿@model Mercadona.Models.Offer
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+
+<h2>
+    Promotion
+</h2>
+<div class="container mt-5 my-4">
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">
+            Remise
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Discount) %
+        </dd>
+        <dt class="col-sm-2">
+            Date de début
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+        <dt class="col-sm-2">
+            Expiration
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+    </dl>
+
+    <div>
+        <a asp-action="Edit" class="btn btn-warning" asp-route-id="@Model?.Id">Modifier</a> |
+        <a asp-action="Index" class="btn btn-success">Retour</a>
+    </div>
+</div>
