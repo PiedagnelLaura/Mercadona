@@ -22,7 +22,7 @@ namespace Mercadona.Controllers
 
         public async Task<IActionResult> Index(AddData addData)
         {
-            var viewModel = new ProductViewModel();
+            var viewModel = new HomeViewModel();
             viewModel.Products = await _dbContext.Products.ToListAsync();
 
             if (!viewModel.Products.Any())
@@ -41,6 +41,8 @@ namespace Mercadona.Controllers
                     viewModel.NewPrices.Add(product.Id, newPrice);
                 }
             }
+
+            viewModel.Categories = await _dbContext.Categories.ToListAsync();
 
             return View(viewModel);
         }
