@@ -57,3 +57,22 @@ body {
     width : 300px;
     margin : 10px;
 }
+
+.img-product {
+    max-width : 300px;
+}
+
+.detail-icon {
+    background-color: #1f5a92;
+    color : white;
+}
+
+.detail-icon:hover {
+    background-color: #104779;
+    color: white;
+}
+
+.icon-product {
+    width :120px;
+    margin:2px;
+}
