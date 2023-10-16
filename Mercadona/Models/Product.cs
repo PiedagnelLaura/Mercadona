@@ -14,7 +14,7 @@ namespace Mercadona.Models
         public int CategoryId { get; set; }
         public virtual Category? Category { get; set; }
 
-        public int OfferId { get; set; }
+        public int? OfferId { get; set; }
         public virtual Offer? Offer { get; set; }
 
     }

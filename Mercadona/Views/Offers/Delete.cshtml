@@ -1,0 +1,38 @@
+﻿@model Mercadona.Models.Offer
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h2>
+    Voulez vous supprimer cette promotion ?
+</h2>
+<div class="container mt-5 my-4">
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">
+            Remise
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Discount) %
+        </dd>
+        <dt class="col-sm-2">
+            Date de début
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.StartDate)
+        </dd>
+        <dt class="col-sm-2">
+            Expiration
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" class="mt-2">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-delete">Supprimer</button> | <a asp-action="Index" class="btn btn-add-cancel">Retour</a>
+
+    </form>
+</div>

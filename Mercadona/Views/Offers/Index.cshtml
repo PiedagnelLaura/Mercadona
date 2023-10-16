@@ -1,0 +1,52 @@
+﻿@model IEnumerable<Mercadona.Models.Offer>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h1>Promotions</h1>
+
+<p>
+    <a class="btn btn-add-cancel float-end" asp-action="Create">Ajouter</a>
+</p>
+
+<table class="table table-hover mt-4">
+    <thead>
+        <tr>
+            <th scope="col">
+                Remise
+            </th>
+            <th scope="col">
+                Date de début
+            </th>
+            <th scope="col">
+                Expiration
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Discount) %
+
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.StartDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EndDate)
+                </td>
+         
+                <td class="text-end">
+                    <a class="btn btn-sm btn-detail icon-product" asp-action="Details" asp-route-id="@item.Id">Voir le détail <i class="fa-regular fa-eye"></i></a>
+                    <a class="btn btn-sm btn-edit icon-product" asp-action="Edit" asp-route-id="@item.Id">Modifier <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    <a class="btn btn-sm btn-delete icon-product" asp-action="Delete" asp-route-id="@item.Id">Supprimer <i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

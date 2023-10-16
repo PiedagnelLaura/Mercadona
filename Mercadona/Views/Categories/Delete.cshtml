@@ -1,0 +1,28 @@
+﻿@model Mercadona.Models.Category
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+
+<h2>
+    Voulez vous supprimer cette catégorie ?
+</h2>
+<h3>Tous les produits associés seront supprimés !</h3>
+<div class="container mt-5 my-4">
+    
+    <dl class="row mt-4">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete" class="mt-2">
+        <input type="hidden" asp-for="Id" />
+        <button type="submit" class="btn btn-delete">Supprimer</button> | <a asp-action="Index" class="btn btn-add-cancel">Retour</a>
+
+    </form>
+</div>

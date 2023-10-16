@@ -1,0 +1,117 @@
+﻿@model Mercadona.Models.Product
+
+@{
+    ViewData["Title"] = "Details";
+
+    string formattedEndDate = "";
+    string formattedStartDate = "";
+    if (Model.Offer != null)
+    {
+        formattedEndDate = Model.Offer.EndDate.ToString("dd/MM/yyyy");
+        formattedStartDate = Model.Offer.StartDate.ToString("dd/MM/yyyy");
+    }
+
+}
+
+
+<h2>
+    Détails du produit
+</h2>
+<div class="container mt-5 my-4">
+
+    <dl class="row mt-4">
+        <dt class="col-sm-2">
+            Image
+        </dt>
+        <dd class="col-sm-10">
+            <img src="@Html.DisplayFor(model => model.Picture)" class="card-img-top img-product">
+        </dd>
+        <dt class="col-sm-2">
+            Nom
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Description
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class="col-sm-2">
+            Prix
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class="col-sm-2">
+            Catégorie
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Category.Name)
+        </dd>
+        <dt class="col-sm-2">
+            Remise
+        </dt>
+        @if (Model.Offer != null)
+        {
+            <dd class="col-sm-10">
+                <span class="fw-bold">@Html.DisplayFor(model => model.Offer.Discount)%</span>
+                du
+               <span class="fw-bold">@formattedStartDate</span>
+                au
+               <span class="fw-bold">@formattedEndDate</span>
+            </dd>
+        }
+        @if (Model.Offer == null)
+        {
+        <dd class="col-sm-10">
+                <a class="btn btn-detail" id="addOfferButton">Ajouter une promotion</a>
+                <div id="offerForm" style="display: none;">
+                    @using (Html.BeginForm("AddOffer", "Products", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(model => model.Id) 
+                        @Html.HiddenFor(model => model.Name) 
+                        @Html.HiddenFor(model => model.Description) 
+                        @Html.HiddenFor(model => model.Price)
+                        @Html.HiddenFor(model => model.Picture)
+                        @Html.DropDownListFor(model => model.OfferId, (SelectList)ViewBag.AllOffers, "Sélectionnez une offre")@Html.ValidationMessageFor(model => model.OfferId)
+                        <button type="submit" class="btn btn-detail">Valider cette promotion</button>
+                    }
+                    <a class="btn btn-delete mt-3" id="addNewOfferButton">ou créer une nouvelle offre</a>
+                </div>
+                <div id="newOfferForm" style="display: none;">
+                    @using (Html.BeginForm("CreateOffer", "Products", FormMethod.Post))
+                    {
+                        @Html.HiddenFor(model => model.Id)
+                        @Html.HiddenFor(model => model.Name)
+                        @Html.HiddenFor(model => model.Description)
+                        @Html.HiddenFor(model => model.Price)
+                        @Html.HiddenFor(model => model.Picture)
+
+                        <div class="form-group">
+                            <label for="Offer_Discount">Remise (%)</label>
+                            @Html.EditorFor(model => model.Offer.Discount, new { htmlAttributes = new { @class = "form-control" } })
+                        </div>
+                        <div class="form-group">
+                            <label for="Offer_StartDate">Date de début</label>
+                            @Html.EditorFor(model => model.Offer.StartDate, new { htmlAttributes = new { @class = "form-control" } })
+                        </div>
+                        <div class="form-group">
+                            <label for="Offer_EndDate">Date de fin</label>
+                            @Html.EditorFor(model => model.Offer.EndDate, new { htmlAttributes = new { @class = "form-control" } })
+                        </div>
+
+                        <button type="submit" class="btn btn-detail mt-2">Ajouter cette promotion</button>
+                    }
+                </div>
+
+        </dd>
+        }
+    </dl>
+
+    <div class="mt-3">
+        <a asp-action="Edit" class="btn btn-edit" asp-route-id="@Model?.Id">Modifier</a> |
+        <a asp-action="Index" class="btn btn-add-cancel">Retour</a>
+    </div>
+</div>

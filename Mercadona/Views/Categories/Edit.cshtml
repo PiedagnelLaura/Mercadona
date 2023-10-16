@@ -1,0 +1,32 @@
+﻿@model Mercadona.Models.Category
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="container my-4">
+    <a asp-action="Index" class="btn btn-add-cancel float-end">Retour</a>
+    <h2>Modifier</h2>
+
+    <form asp-action="Edit" class="mt-5">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <input type="hidden" asp-for="Id" />
+
+      
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Nom</label>
+            <input asp-for="Name" class="form-control">
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+ 
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-detail mt-5">Valider</button>
+        </div>
+    </form>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
