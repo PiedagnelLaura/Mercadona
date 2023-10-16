@@ -15,6 +15,10 @@ builder.Services.AddDbContext<MercadonaDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("MercadonaConnection"))
     .UseLazyLoadingProxies());
 
+builder.Services.AddDefaultIdentity<MercadonaUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddRoles<IdentityRole>()
+    .AddEntityFrameworkStores<MercadonaDbContext>();
+
 //builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
 //    .AddEntityFrameworkStores<MercadonaDbContext>();
 
@@ -32,14 +36,14 @@ if (!app.Environment.IsDevelopment())
 }
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
-using (var scope = app.Services.CreateScope())
-{
-    var services = scope.ServiceProvider;
+//using (var scope = app.Services.CreateScope())
+//{
+//    var services = scope.ServiceProvider;
 
-    var context = services.GetRequiredService<MercadonaDbContext>();
-    context.Database.EnsureCreated();
-    // DbInitializer.Initialize(context);
-}
+//    var context = services.GetRequiredService<MercadonaDbContext>();
+//    context.Database.EnsureCreated();
+//    // DbInitializer.Initialize(context);
+//}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
@@ -52,5 +56,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
+app.MapRazorPages();
 app.Run();
