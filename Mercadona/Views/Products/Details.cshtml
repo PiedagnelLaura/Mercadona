@@ -76,7 +76,7 @@
                         @Html.HiddenFor(model => model.Price)
                         @Html.HiddenFor(model => model.Picture)
                         @Html.DropDownListFor(model => model.OfferId, (SelectList)ViewBag.AllOffers, "Sélectionnez une offre")@Html.ValidationMessageFor(model => model.OfferId)
-                        <button type="submit" class="btn btn-detail">Valider cette offre</button>
+                        <button type="submit" class="btn btn-detail">Valider cette promotion</button>
                     }
                     <a class="btn btn-delete mt-3" id="addNewOfferButton">ou créer une nouvelle offre</a>
                 </div>
@@ -102,7 +102,7 @@
                             @Html.EditorFor(model => model.Offer.EndDate, new { htmlAttributes = new { @class = "form-control" } })
                         </div>
 
-                        <button type="submit" class="btn btn-detail mt-2">Ajouter cette offre</button>
+                        <button type="submit" class="btn btn-detail mt-2">Ajouter cette promotion</button>
                     }
                 </div>
 
