@@ -1,6 +1,7 @@
 ﻿const app = {
     init: function () {
         filter.init();
+        offer.init();
     }
 };
 

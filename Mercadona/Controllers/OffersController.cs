@@ -148,6 +148,13 @@ namespace Mercadona.Controllers
             var offer = await _context.Offers.FindAsync(id);
             if (offer != null)
             {
+                var productsWithOffer = _context.Products.Where(p => p.OfferId == id);
+
+                foreach (var product in productsWithOffer)
+                {
+                    product.OfferId = null; 
+                }
+
                 _context.Offers.Remove(offer);
             }
             

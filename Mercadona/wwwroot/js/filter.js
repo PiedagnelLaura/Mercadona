@@ -1,10 +1,14 @@
 ﻿const filter = {
     init: function () {
         const buttonFilterElmt = document.querySelector('#filter');
-        buttonFilterElmt.addEventListener('click', filter.handleClickFilter);
+        if (buttonFilterElmt) {
+            buttonFilterElmt.addEventListener('click', filter.handleClickFilter);
+        }
 
         const categorySelect = document.getElementById("categorySelect");
-        categorySelect.addEventListener("change", filter.handleSelectCategories);
+        if (categorySelect) {
+            categorySelect.addEventListener("change", filter.handleSelectCategories);
+        }
     },
 
     /**

@@ -43,6 +43,16 @@ namespace Mercadona.Controllers
                 return NotFound();
             }
 
+            ViewBag.AllOffers = new SelectList(
+                _context.Offers.Select(o => new SelectListItem
+                {
+                    Value = o.Id.ToString(),
+                    Text = $"{o.Discount}% du {o.StartDate.ToString("dd/MM/yyyy")} au {o.EndDate.ToString("dd/MM/yyyy")}"
+                }),
+                "Value",
+                "Text"
+            );
+
             return View(product);
         }
 
@@ -126,8 +136,6 @@ namespace Mercadona.Controllers
             {
                 var errorMessage = error.ErrorMessage;
                 var exception = error.Exception;
-
-                // Vous pouvez journaliser ou gérer les erreurs ici
             }
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             ViewData["OfferId"] = new SelectList(_context.Offers, "Id", "Id", product.OfferId);
@@ -177,5 +185,72 @@ namespace Mercadona.Controllers
         {
           return (_context.Products?.Any(e => e.Id == id)).GetValueOrDefault();
         }
+
+        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult AddOffer(Product model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (model.OfferId.HasValue)
+                {
+                    var product = _context.Products.FirstOrDefault(p => p.Id == model.Id);
+                    if (product != null)
+                    {
+                        product.OfferId = model.OfferId.Value;
+                        _context.SaveChanges(); 
+                    }
+
+                    return RedirectToAction("Details", new { id = model.Id });
+                }
+            }
+
+            return View("Details", model);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult CreateOffer(Product model)
+        {
+            if (ModelState.IsValid)
+            {
+                if (model.Offer != null) 
+                {
+                    var newOffer = new Offer
+                    {
+                        StartDate = model.Offer.StartDate,
+                        EndDate = model.Offer.EndDate,
+                        Discount = model.Offer.Discount
+                    };
+
+                    _context.Offers.Add(newOffer);
+                    _context.SaveChanges();
+
+                    var product = _context.Products.FirstOrDefault(p => p.Id == model.Id);
+                    if (product != null)
+                    {
+                        product.OfferId = newOffer.Id; 
+                        _context.SaveChanges(); 
+                    }
+
+                    return RedirectToAction("Details", new { id = model.Id });
+                }
+            }
+            else
+            {
+                // Le modèle a des erreurs de validation.
+                // Vous pouvez accéder aux erreurs individuelles comme ceci :
+
+
+                // Vous pouvez également obtenir une liste de toutes les erreurs de modèle.
+                var modelErrors = ModelState.Values.SelectMany(v => v.Errors).ToList();
+
+                // Vous pouvez effectuer des actions appropriées en fonction des erreurs ici.
+            }
+
+            return View("Details", model);
+        }
+
     }
 }

@@ -62,17 +62,27 @@ body {
     max-width : 300px;
 }
 
-.detail-icon {
+.btn-detail {
     background-color: #1f5a92;
     color : white;
-}
-
-.detail-icon:hover {
-    background-color: #104779;
-    color: white;
 }
 
 .icon-product {
     width :120px;
     margin:2px;
+}
+
+.btn-edit {
+    background-color: #5682ab;
+    color: white;
+}
+
+.btn-delete {
+    background-color: #bf6e6e;
+    color: white;
+}
+
+.btn-add-cancel {
+    background-color: #15395b;
+    color: white;
 }

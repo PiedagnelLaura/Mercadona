@@ -7,7 +7,7 @@
 <h1>Produits</h1>
 
 <p>
-    <a class="btn btn-success float-end" asp-action="Create">Ajouter</a>
+    <a class="btn btn-add-cancel float-end" asp-action="Create">Ajouter</a>
 </p>
 
 <table class="table table-hover mt-4">
@@ -53,9 +53,9 @@
                 @Html.DisplayFor(modelItem => item.Category.Name)
             </td>
                 <td class="text-end">
-                    <a class="btn btn-sm detail-icon icon-product" asp-action="Details" asp-route-id="@item.Id">Voir le détail <i class="fa-regular fa-eye"></i></a>
-                    <a class="btn btn-sm btn-warning icon-product" asp-action="Edit" asp-route-id="@item.Id">Modifier <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
-                    <a class="btn btn-sm btn-danger icon-product" asp-action="Delete" asp-route-id="@item.Id">Supprimer <i class="fa fa-trash-o" aria-hidden="true"></i></a>
+                    <a class="btn btn-sm btn-detail icon-product" asp-action="Details" asp-route-id="@item.Id">Voir le détail <i class="fa-regular fa-eye"></i></a>
+                    <a class="btn btn-sm btn-edit icon-product" asp-action="Edit" asp-route-id="@item.Id">Modifier <i class="fa fa-pencil-square-o" aria-hidden="true"></i></a>
+                    <a class="btn btn-sm btn-delete icon-product" asp-action="Delete" asp-route-id="@item.Id">Supprimer <i class="fa fa-trash-o" aria-hidden="true"></i></a>
             </td>
         </tr>
 }
