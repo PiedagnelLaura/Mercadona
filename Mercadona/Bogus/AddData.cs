@@ -1,6 +1,7 @@
 ﻿using Mercadona.Context;
 using Mercadona.Controllers;
 using Mercadona.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Mercadona.Bogus
@@ -14,15 +15,35 @@ namespace Mercadona.Bogus
             try
             {
 
-                //var userFaker = new UserFaker();
-                //for (int i = 0; i < 5; i++)
-                //{
+                var user = new MercadonaUser
+                {
+                    Id = "firstUser",
+                    UserName = "admin@admin.com",
+                    NormalizedUserName = "ADMIN@ADMIN.COM",
+                    Email = "admin@admin.com",
+                    NormalizedEmail = "ADMIN@ADMIN.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = "AQAAAAEAACcQAAAAECZFnQT0SkR5sCmyqpx8kViJZ9GKPBh6BeVy5J9MlKyi6shn95oC+/ISIlrsshlyvg==",
+                    SecurityStamp = "GYA3AGUEBQ5LKI3E53WETVQDAFRLXQP4",
+                    ConcurrencyStamp= "8c5c873f-8c5a-40be-9185-a64280329458",
+                    LockoutEnabled= true,
+                };
+                
 
-                //    var fakePeople = userFaker.Generate();
-                //    var user = new User { Name = fakePeople.Name, Password = "admin" };
+                var role = new IdentityRole
+                {
+                    Id = "firstRole",
+                    Name = "Administrator",
+                    NormalizedName = "Administrator"
 
-                //    _dbContext.Users.Add(user);
-                //}
+                };
+                
+                var userRole = new IdentityUserRole<string>
+                {
+                    RoleId = role.Id,
+                    UserId = user.Id
+                };
+                
 
                 var random = new Random();
 
@@ -68,13 +89,18 @@ namespace Mercadona.Bogus
                         Price = fakeProduct.Price,
                         Picture = fakeProduct.Picture,
                         Category = categories[randomIndexCat],
-                        Offer = offers[randomIndexOffer],
                     };
+                    if (i%2 == 1)
+                    {
+                        product.Offer = offers[randomIndexOffer];
+                    }
                     products.Add(product);
                 }
 
 
-
+                dbContext.Users.Add(user);
+                dbContext.Roles.Add(role);
+                dbContext.UserRoles.Add(userRole);
                 dbContext.Categories.AddRange(categories);
                 dbContext.Products.AddRange(products);
                 dbContext.Offers.AddRange(offers);

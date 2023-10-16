@@ -36,14 +36,14 @@ if (!app.Environment.IsDevelopment())
 }
 AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
 
-//using (var scope = app.Services.CreateScope())
-//{
-//    var services = scope.ServiceProvider;
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
 
-//    var context = services.GetRequiredService<MercadonaDbContext>();
-//    context.Database.EnsureCreated();
-//    // DbInitializer.Initialize(context);
-//}
+    var context = services.GetRequiredService<MercadonaDbContext>();
+    context.Database.EnsureCreated();
+    // DbInitializer.Initialize(context);
+}
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();

@@ -7,9 +7,11 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Mercadona.Context;
 using Mercadona.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Mercadona.Controllers
 {
+    [Authorize(Roles = "Administrator")]
     public class ProductsController : Controller
     {
         private readonly MercadonaDbContext _context;
