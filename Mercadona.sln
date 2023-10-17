@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33122.133
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mercadona", "Mercadona\Mercadona.csproj", "{DB63A47A-C0C1-43D9-BC9A-E3420B965EB8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mercadona", "Mercadona\Mercadona.csproj", "{DB63A47A-C0C1-43D9-BC9A-E3420B965EB8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MercadonaTests", "MercadonaTests\MercadonaTests.csproj", "{D65741B7-E27D-4BAA-894B-C15E98A22FA5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DB63A47A-C0C1-43D9-BC9A-E3420B965EB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DB63A47A-C0C1-43D9-BC9A-E3420B965EB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DB63A47A-C0C1-43D9-BC9A-E3420B965EB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D65741B7-E27D-4BAA-894B-C15E98A22FA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D65741B7-E27D-4BAA-894B-C15E98A22FA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D65741B7-E27D-4BAA-894B-C15E98A22FA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D65741B7-E27D-4BAA-894B-C15E98A22FA5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
