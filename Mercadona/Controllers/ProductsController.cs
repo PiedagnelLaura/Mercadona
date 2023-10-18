@@ -219,7 +219,7 @@ namespace Mercadona.Controllers
             {
                 if (model.Offer != null) 
                 {
-                    var newOffer = new Offer
+                    Offer newOffer = new Offer
                     {
                         StartDate = model.Offer.StartDate,
                         EndDate = model.Offer.EndDate,
@@ -239,18 +239,6 @@ namespace Mercadona.Controllers
                     return RedirectToAction("Details", new { id = model.Id });
                 }
             }
-            else
-            {
-                // Le modèle a des erreurs de validation.
-                // Vous pouvez accéder aux erreurs individuelles comme ceci :
-
-
-                // Vous pouvez également obtenir une liste de toutes les erreurs de modèle.
-                var modelErrors = ModelState.Values.SelectMany(v => v.Errors).ToList();
-
-                // Vous pouvez effectuer des actions appropriées en fonction des erreurs ici.
-            }
-
             return View("Details", model);
         }
 

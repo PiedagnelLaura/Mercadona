@@ -29,12 +29,12 @@ namespace Mercadona.Tests
             using (var dbContext = new MercadonaDbContext(dbContextOptions))
             {
                 // On créé un produit avec une promotion valide
-                var product = new Product
+                Product product = new Product
                 {
                     Name = "Produit Test",
                     Price = 100,
                     Description= "Description",
-                    Picture = "ff",
+                    Picture = "https://picsum.photos/640/480/?image=613",
                     Offer = new Offer
                     {
                         StartDate = DateTime.Now.AddDays(-1),
@@ -44,26 +44,25 @@ namespace Mercadona.Tests
 
                 dbContext.Products.Add(product);
                 dbContext.SaveChanges();
-                var addData = new AddData();
+
+
+                // On fait appel au controller et au viewModel
                 var controller = new HomeController(null, dbContext);
-
-                // On fait appel à la vue
+                var addData = new AddData();
                 var result = await controller.Index(addData) as ViewResult;
-                var viewModel = result.Model as HomeViewModel;
 
-             
+                var viewModel = result?.Model as HomeViewModel;
 
                 // Vérification que la promotion est correctement appliquée
-                var expectedPrice = Math.Round(product.Price - (product.Price * product.Offer.Discount / 100), 2);
-                if (viewModel.NewPrices.Any() ) 
+                decimal expectedPrice = Math.Round(product.Price - (product.Price * product.Offer.Discount / 100), 2);
+                if (viewModel != null && viewModel.NewPrices.Any() ) 
                 {
                     Assert.Equal(expectedPrice, viewModel.NewPrices[product.Id]);
                 }
                 else 
                 {
-                    Assert.Fail("NewPrices est nul");
+                    Assert.Fail("NewPrices is nul");
                 }
-                
             }
         }
     }

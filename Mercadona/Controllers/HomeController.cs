@@ -22,7 +22,7 @@ namespace Mercadona.Controllers
 
         public async Task<IActionResult> Index(AddData addData)
         {
-            var viewModel = new HomeViewModel();
+            HomeViewModel viewModel = new HomeViewModel();
             viewModel.Products = await _dbContext.Products.ToListAsync();
 
             if (!viewModel.Products.Any())
@@ -33,7 +33,7 @@ namespace Mercadona.Controllers
 
             viewModel.NewPrices = new Dictionary<int, decimal>();
 
-            foreach (var product in viewModel.Products)
+            foreach (Product product in viewModel.Products)
             {
                 if (product.Offer != null && product.Offer.StartDate < DateTime.Now && product.Offer.EndDate > DateTime.Now)
                 {

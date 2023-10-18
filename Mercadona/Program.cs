@@ -28,13 +28,6 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     options.SupportedUICultures = new List<CultureInfo> { new CultureInfo("en-US") };
 });
 
-//builder.Services.AddDefaultIdentity<User>(options => options.SignIn.RequireConfirmedAccount = true)
-//    .AddEntityFrameworkStores<MercadonaDbContext>();
-
-
-//!var mvcBuilder = builder.Services.AddRazorPages();
-//builder.Services.AddTransient<IDataGenerator, UserService>();
-
 var app = builder.Build();
 app.UseRequestLocalization();
 // Configure the HTTP request pipeline.
@@ -68,3 +61,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapRazorPages();
 app.Run();
+public partial class Program { }
