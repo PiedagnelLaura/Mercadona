@@ -1,24 +1,17 @@
-namespace Mercadona.Tests
+using Mercadona.Bogus;
+using Mercadona.Context;
+using Mercadona.Controllers;
+using Mercadona.Models;
+using Mercadona.ViewModel;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+
+namespace MercadonaMSTest
 {
-
-    using Xunit;
-    using Microsoft.EntityFrameworkCore;
-    using Mercadona.Controllers;
-    using Mercadona.Models;
-    using Mercadona.ViewModel;
-    using System;
-    using System.Collections.Generic;
-    using System.Linq;
-    using Mercadona.Bogus;
-    using Microsoft.AspNetCore.Mvc;
-    using Mercadona.Context;
-    using Moq;
-    using System.Threading.Tasks;
-
+    [TestClass]
     public class OfferTest
     {
-
-        [Fact]
+        [TestMethod]
         public async Task PromotionIsAppliedWhenValidAsync()
         {
             // On utilise une BDD in memory pour les tests
@@ -33,13 +26,14 @@ namespace Mercadona.Tests
                 {
                     Name = "Produit Test",
                     Price = 100,
-                    Description= "Description",
+                    Description = "Description",
                     Picture = "https://picsum.photos/640/480/?image=613",
                     Offer = new Offer
                     {
                         StartDate = DateTime.Now.AddDays(-1),
                         EndDate = DateTime.Now.AddDays(1),
-                        Discount = 20                    }
+                        Discount = 20
+                    }
                 };
 
                 dbContext.Products.Add(product);
@@ -55,11 +49,11 @@ namespace Mercadona.Tests
 
                 // Vérification que la promotion est correctement appliquée
                 decimal expectedPrice = Math.Round(product.Price - (product.Price * product.Offer.Discount / 100), 2);
-                if (viewModel != null && viewModel.NewPrices.Any() ) 
+                if (viewModel != null && viewModel.NewPrices.Any())
                 {
-                    Assert.Equal(expectedPrice, viewModel.NewPrices[product.Id]);
+                    Assert.AreEqual(expectedPrice, viewModel.NewPrices[product.Id]);
                 }
-                else 
+                else
                 {
                     Assert.Fail("NewPrices is nul");
                 }

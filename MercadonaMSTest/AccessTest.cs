@@ -1,32 +1,24 @@
-using System.Net;
-using System.Net.Http;
-using System.Threading.Tasks;
-using Xunit;
-using Microsoft.AspNetCore.Mvc.Testing;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.TestHost;
-using System.Net.Http.Headers;
-using System.Security.Claims;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Options;
-using System.Text.Encodings.Web;
-using Microsoft.Extensions.Logging;
 using MercadonaTests.Authentication;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Mvc.Testing;
+using Microsoft.AspNetCore.TestHost;
+using Microsoft.Extensions.DependencyInjection;
+using System.Net;
 
-namespace Mercadona.Tests
+namespace MercadonaMSTest
 {
-    public class AccesTests : IClassFixture<WebApplicationFactory<Program>>
+    [TestClass]
+    public class AccessTest
     {
-        private readonly WebApplicationFactory<Program> _factory;
+        private WebApplicationFactory<Program> _factory;
 
-        public AccesTests(WebApplicationFactory<Program> factory)
+        [TestInitialize]
+        public void Initialize()
         {
-            _factory = factory;
+            _factory = new WebApplicationFactory<Program>();
         }
 
-        [Fact]
+        [TestMethod]
         public async Task AccesAdminInBackOffice()
         {
 
@@ -45,10 +37,10 @@ namespace Mercadona.Tests
             var response = await client.GetAsync("/Products");
 
             // La page doit s'afficher
-            Assert.Equal(HttpStatusCode.OK, response.StatusCode);
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }
 
-        [Fact]
+        [TestMethod]
         public async Task AccessUserInBackOffice()
         {
             // On simule les actions d'une personne connectée mais non admin
@@ -65,19 +57,24 @@ namespace Mercadona.Tests
             var response = await client.GetAsync("/Products");
 
             // L'accès doit être refusé
-            Assert.Equal(HttpStatusCode.Forbidden, response.StatusCode);
+            Assert.AreEqual(HttpStatusCode.Forbidden, response.StatusCode);
         }
 
-        [Fact]
+        [TestMethod]
         public async Task AccessInBackOfficeWithoutAccount()
         {
-      
             var client = _factory.CreateClient();
 
             var response = await client.GetAsync("/Products");
 
             // On doit être redirigé vers la page de connexion
-            Assert.StartsWith("/Identity/Account/Login", response?.RequestMessage?.RequestUri?.AbsolutePath);
+            StringAssert.StartsWith("/Identity/Account/Login", response?.RequestMessage?.RequestUri?.AbsolutePath);
+        }
+
+        [TestCleanup]
+        public void Cleanup()
+        {
+            _factory.Dispose();
         }
     }
 }
