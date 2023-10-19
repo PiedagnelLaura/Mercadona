@@ -14,6 +14,7 @@ namespace MercadonaMSTest
         [TestMethod]
         public async Task PromotionIsAppliedWhenValidAsync()
         {
+            // Arrange
             // On utilise une BDD in memory pour les tests
             var dbContextOptions = new DbContextOptionsBuilder<MercadonaDbContext>()
                 .UseInMemoryDatabase(databaseName: "MercadonaTest")
@@ -39,16 +40,18 @@ namespace MercadonaMSTest
                 dbContext.Products.Add(product);
                 dbContext.SaveChanges();
 
+                // Vérification que la promotion est correctement appliquée
+                decimal expectedPrice = Math.Round(product.Price - (product.Price * product.Offer.Discount / 100), 2);
 
                 // On fait appel au controller et au viewModel
                 var controller = new HomeController(null, dbContext);
                 var addData = new AddData();
-                var result = await controller.Index(addData) as ViewResult;
 
+                // Act
+                var result = await controller.Index(addData) as ViewResult;
                 var viewModel = result?.Model as HomeViewModel;
 
-                // Vérification que la promotion est correctement appliquée
-                decimal expectedPrice = Math.Round(product.Price - (product.Price * product.Offer.Discount / 100), 2);
+                // Assert
                 if (viewModel != null && viewModel.NewPrices.Any())
                 {
                     Assert.AreEqual(expectedPrice, viewModel.NewPrices[product.Id]);

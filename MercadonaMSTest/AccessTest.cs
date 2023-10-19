@@ -21,7 +21,7 @@ namespace MercadonaMSTest
         [TestMethod]
         public async Task AccesAdminInBackOffice()
         {
-
+            // Arrange
             // On simule les actions d'un administrateur
             var client = _factory.WithWebHostBuilder(builder =>
             {
@@ -33,9 +33,11 @@ namespace MercadonaMSTest
             }).CreateClient();
             client.DefaultRequestHeaders.Add("admin", "admin@admin.com");
 
+            // Act
             // On fait appel a la page des produits
             var response = await client.GetAsync("/Products");
 
+            // Assert
             // La page doit s'afficher
             Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
         }
@@ -43,6 +45,7 @@ namespace MercadonaMSTest
         [TestMethod]
         public async Task AccessUserInBackOffice()
         {
+            // Arrange
             // On simule les actions d'une personne connectée mais non admin
             var client = _factory.WithWebHostBuilder(builder =>
             {
@@ -54,8 +57,10 @@ namespace MercadonaMSTest
             }).CreateClient();
             client.DefaultRequestHeaders.Add("user", "user@user.com");
 
+            // Act
             var response = await client.GetAsync("/Products");
 
+            // Assert
             // L'accès doit être refusé
             Assert.AreEqual(HttpStatusCode.Forbidden, response.StatusCode);
         }
@@ -63,10 +68,13 @@ namespace MercadonaMSTest
         [TestMethod]
         public async Task AccessInBackOfficeWithoutAccount()
         {
+            // Arrange
             var client = _factory.CreateClient();
 
+            // Act
             var response = await client.GetAsync("/Products");
 
+            // Assert
             // On doit être redirigé vers la page de connexion
             StringAssert.StartsWith("/Identity/Account/Login", response?.RequestMessage?.RequestUri?.AbsolutePath);
         }
