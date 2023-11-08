@@ -191,7 +191,7 @@ namespace Mercadona.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult AddOffer(Product model)
+        public async Task<IActionResult> AddOffer(Product model)
         {
             if (ModelState.IsValid)
             {
@@ -201,7 +201,7 @@ namespace Mercadona.Controllers
                     if (product != null)
                     {
                         product.OfferId = model.OfferId.Value;
-                        _context.SaveChanges(); 
+                        await _context.SaveChangesAsync(); 
                     }
 
                     return RedirectToAction("Details", new { id = model.Id });
@@ -213,7 +213,7 @@ namespace Mercadona.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult CreateOffer(Product model)
+        public async Task<IActionResult> CreateOffer(Product model)
         {
             if (ModelState.IsValid)
             {
@@ -227,13 +227,13 @@ namespace Mercadona.Controllers
                     };
 
                     _context.Offers.Add(newOffer);
-                    _context.SaveChanges();
+                    await _context.SaveChangesAsync();
 
-                    var product = _context.Products.FirstOrDefault(p => p.Id == model.Id);
+                    var product = await _context.Products.FirstOrDefaultAsync(p => p.Id == model.Id);
                     if (product != null)
                     {
                         product.OfferId = newOffer.Id; 
-                        _context.SaveChanges(); 
+                        await _context.SaveChangesAsync(); 
                     }
 
                     return RedirectToAction("Details", new { id = model.Id });
