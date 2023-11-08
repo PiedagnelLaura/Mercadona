@@ -4,13 +4,18 @@ using Mercadona.Models;
 using Mercadona.Context;
 using Microsoft.AspNetCore.Localization;
 using System.Globalization;
+using NLog.Web;
+using NLog;
+
+var logger = NLog.LogManager.Setup().LoadConfigurationFromAppSettings().GetCurrentClassLogger();
+logger.Debug("init main");
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-
-
 
 //Add Entity Framework
 builder.Services.AddDbContext<MercadonaDbContext>(options =>
@@ -27,6 +32,11 @@ builder.Services.Configure<RequestLocalizationOptions>(options =>
     options.SupportedCultures = new List<CultureInfo> { new CultureInfo("en-US") };
     options.SupportedUICultures = new List<CultureInfo> { new CultureInfo("en-US") };
 });
+
+// NLog: Setup NLog for Dependency injection
+builder.Logging.ClearProviders();
+builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Trace);
+builder.Host.UseNLog();
 
 var app = builder.Build();
 app.UseRequestLocalization();

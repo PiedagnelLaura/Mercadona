@@ -27,6 +27,7 @@ namespace Mercadona.Controllers
 
             if (!viewModel.Products.Any())
             {
+                _logger.LogInformation("Création de donnée en BDD");
                 addData.GenerateData(_dbContext);
                 viewModel.Products = await _dbContext.Products.ToListAsync();
             }
@@ -43,7 +44,7 @@ namespace Mercadona.Controllers
             }
 
             viewModel.Categories = await _dbContext.Categories.ToListAsync();
-
+            _logger.LogInformation("Ouverture de la page d'accueil");
             return View(viewModel);
         }
 
