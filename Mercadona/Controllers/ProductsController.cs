@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Mercadona.Context;
 using Mercadona.Models;
 using Microsoft.AspNetCore.Authorization;
-using System.Diagnostics;
+
 namespace Mercadona.Controllers
 {
     [Authorize(Roles = "Administrator")]
