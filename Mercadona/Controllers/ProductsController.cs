@@ -8,17 +8,19 @@ using Microsoft.EntityFrameworkCore;
 using Mercadona.Context;
 using Mercadona.Models;
 using Microsoft.AspNetCore.Authorization;
-
+using System.Diagnostics;
 namespace Mercadona.Controllers
 {
     [Authorize(Roles = "Administrator")]
     public class ProductsController : Controller
     {
         private readonly MercadonaDbContext _context;
+        private readonly ILogger<ProductsController> _logger;
 
-        public ProductsController(MercadonaDbContext context)
+        public ProductsController(MercadonaDbContext context, ILogger<ProductsController> logger)
         {
             _context = context;
+            _logger = logger;
         }
 
         // GET: Products
@@ -72,12 +74,24 @@ namespace Mercadona.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Name,Description,Price,Picture,CategoryId,OfferId")] Product product)
         {
-            if (ModelState.IsValid)
+            try 
             {
-                _context.Add(product);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                if (ModelState.IsValid)
+                {
+                    _context.Add(product);
+                    await _context.SaveChangesAsync();
+
+                    _logger.LogInformation($"Création d'un nouveau produit : {product.Name}");
+
+                    return RedirectToAction(nameof(Index));
+                }
             }
+            catch (Exception e)
+            {
+                _logger.LogError($"Erreur lors de la création du produit : {e.Message}");
+                _logger.LogTrace($"Stack Trace : {e.StackTrace}");
+            }
+            
             ViewData["CategoryId"] = new SelectList(_context.Categories, "Id", "Name", product.CategoryId);
             return View(product);
         }
@@ -123,12 +137,20 @@ namespace Mercadona.Controllers
                 {
                     if (!ProductExists(product.Id))
                     {
+                        _logger.LogError($"Le produit avec l'id {product.Id} n'existe pas.");
+
                         return NotFound();
                     }
                     else
                     {
+                        _logger.LogError($"Erreur de concurrence lors de la mise à jour du produit avec l'id {product.Id}.");
                         throw;
                     }
+                }
+                catch (Exception ex)
+                {
+                    _logger.LogError($"Erreur lors de la mise à jour du produit {product.Id} : {ex.Message}");
+                    _logger.LogTrace($"Stack Trace : {ex.StackTrace}");
                 }
                 return RedirectToAction(nameof(Index));
             }
