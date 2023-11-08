@@ -1,0 +1,7074 @@
+{
+  "Mercadona.dll": {
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Program.cs": {
+      "Program": {
+        "System.Void Program::<Main>$(System.String[])": {
+          "Lines": {
+            "10": 3,
+            "11": 3,
+            "14": 3,
+            "18": 3,
+            "21": 3,
+            "22": 8,
+            "23": 8,
+            "25": 5,
+            "26": 3,
+            "27": 3,
+            "29": 3,
+            "30": 3,
+            "31": 3,
+            "32": 3,
+            "33": 3,
+            "34": 6,
+            "37": 3,
+            "38": 3,
+            "39": 3,
+            "41": 3,
+            "42": 3,
+            "44": 3,
+            "45": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "50": 3,
+            "52": 3,
+            "53": 3,
+            "54": 3,
+            "56": 3,
+            "57": 3,
+            "59": 3,
+            "61": 3,
+            "62": 3,
+            "64": 3,
+            "65": 6,
+            "67": 3,
+            "69": 3,
+            "70": 3,
+            "71": 3,
+            "72": 3,
+            "73": 3
+          },
+          "Branches": [
+            {
+              "Line": 44,
+              "Offset": 296,
+              "EndOffset": 298,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 44,
+              "Offset": 296,
+              "EndOffset": 319,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 3
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Manage_Index/<<ExecuteAsync>b__20_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Manage_Index/<<ExecuteAsync>b__20_2>d::MoveNext()": {
+          "Lines": {
+            "13": 0,
+            "15": 0,
+            "16": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 487,
+              "EndOffset": 489,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 487,
+              "EndOffset": 600,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1188,
+              "EndOffset": 1190,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1188,
+              "EndOffset": 1301,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1805,
+              "EndOffset": 1807,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1805,
+              "EndOffset": 1918,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 2442,
+              "EndOffset": 2444,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 2442,
+              "EndOffset": 2555,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3079,
+              "EndOffset": 3081,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3079,
+              "EndOffset": 3193,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3718,
+              "EndOffset": 3720,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3718,
+              "EndOffset": 3832,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Manage_Index/<ExecuteAsync>d__20": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Manage_Index/<ExecuteAsync>d__20::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "5": 0,
+            "8": 0,
+            "9": 0
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 631,
+              "EndOffset": 633,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 631,
+              "EndOffset": 744,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 1195,
+              "EndOffset": 1197,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 1195,
+              "EndOffset": 1308,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\Account\\Manage\\_ManageNav.cshtml": {
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Manage__ManageNav/<ExecuteAsync>d__19": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Manage__ManageNav/<ExecuteAsync>d__19::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0
+          },
+          "Branches": [
+            {
+              "Line": 6,
+              "Offset": 744,
+              "EndOffset": 746,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 6,
+              "Offset": 744,
+              "EndOffset": 857,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 1391,
+              "EndOffset": 1393,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 1391,
+              "EndOffset": 1504,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 8,
+              "Offset": 2038,
+              "EndOffset": 2040,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 8,
+              "Offset": 2038,
+              "EndOffset": 2151,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 2233,
+              "EndOffset": 2238,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 2718,
+              "EndOffset": 2720,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 2718,
+              "EndOffset": 2831,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 2233,
+              "EndOffset": 2904,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 3384,
+              "EndOffset": 3386,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 3384,
+              "EndOffset": 3498,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 4033,
+              "EndOffset": 4035,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 4033,
+              "EndOffset": 4147,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\Account\\Register.cshtml": {
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register/<<ExecuteAsync>b__24_0>d": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register/<<ExecuteAsync>b__24_0>d::MoveNext()": {
+          "Lines": {
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0
+          },
+          "Branches": [
+            {
+              "Line": 14,
+              "Offset": 559,
+              "EndOffset": 561,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 14,
+              "Offset": 559,
+              "EndOffset": 672,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1240,
+              "EndOffset": 1242,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1240,
+              "EndOffset": 1353,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1855,
+              "EndOffset": 1857,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1855,
+              "EndOffset": 1968,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2492,
+              "EndOffset": 2494,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2492,
+              "EndOffset": 2605,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3173,
+              "EndOffset": 3175,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3173,
+              "EndOffset": 3287,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 3790,
+              "EndOffset": 3792,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 3790,
+              "EndOffset": 3904,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 4429,
+              "EndOffset": 4431,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 4429,
+              "EndOffset": 4543,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5112,
+              "EndOffset": 5114,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5112,
+              "EndOffset": 5226,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 5729,
+              "EndOffset": 5731,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 5729,
+              "EndOffset": 5843,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 6368,
+              "EndOffset": 6370,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 6368,
+              "EndOffset": 6482,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register/<<ExecuteAsync>b__24_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register/<<ExecuteAsync>b__24_1>d::MoveNext()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0
+          },
+          "Branches": [
+            {
+              "Line": 52,
+              "Offset": 521,
+              "EndOffset": 58,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 52,
+              "Offset": 521,
+              "EndOffset": 526,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register/<ExecuteAsync>d__24": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages_Account_Register/<ExecuteAsync>d__24::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "7": 0,
+            "11": 0,
+            "38": 0,
+            "39": 0,
+            "46": 0,
+            "48": 0,
+            "49": 0,
+            "59": 0
+          },
+          "Branches": [
+            {
+              "Line": 7,
+              "Offset": 344,
+              "EndOffset": 346,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 7,
+              "Offset": 344,
+              "EndOffset": 379,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 727,
+              "EndOffset": 729,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 11,
+              "Offset": 727,
+              "EndOffset": 840,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 929,
+              "EndOffset": 931,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 929,
+              "EndOffset": 935,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 947,
+              "EndOffset": 949,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 947,
+              "EndOffset": 973,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 1245,
+              "EndOffset": 1247,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 48,
+              "Offset": 1245,
+              "EndOffset": 1280,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1653,
+              "EndOffset": 1655,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 49,
+              "Offset": 1653,
+              "EndOffset": 1766,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\_ViewStart.cshtml": {
+      "AspNetCoreGeneratedDocument.Areas_Identity_Pages__ViewStart/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Areas_Identity_Pages__ViewStart/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "3": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Categories\\Create.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Categories_Create/<<ExecuteAsync>b__20_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Create/<<ExecuteAsync>b__20_1>d::MoveNext()": {
+          "Lines": {
+            "16": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0
+          },
+          "Branches": [
+            {
+              "Line": 16,
+              "Offset": 451,
+              "EndOffset": 453,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 451,
+              "EndOffset": 564,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 1054,
+              "EndOffset": 1056,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 1054,
+              "EndOffset": 1167,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 1671,
+              "EndOffset": 1673,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 1671,
+              "EndOffset": 1784,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 2288,
+              "EndOffset": 2290,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 2288,
+              "EndOffset": 2401,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Categories_Create/<<ExecuteAsync>b__20_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Create/<<ExecuteAsync>b__20_2>d::MoveNext()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Categories_Create/<ExecuteAsync>d__20": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Create/<ExecuteAsync>d__20::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Categories\\Delete.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Categories_Delete/<<ExecuteAsync>b__15_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Delete/<<ExecuteAsync>b__15_2>d::MoveNext()": {
+          "Lines": {
+            "24": 0
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 527,
+              "EndOffset": 529,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 527,
+              "EndOffset": 640,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 1041,
+              "EndOffset": 1043,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 1041,
+              "EndOffset": 1154,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Categories_Delete/<ExecuteAsync>d__15": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Delete/<ExecuteAsync>d__15::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "16": 0,
+            "19": 0
+          },
+          "Branches": [
+            {
+              "Line": 19,
+              "Offset": 670,
+              "EndOffset": 672,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 670,
+              "EndOffset": 783,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Categories\\Edit.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Categories_Edit/<<ExecuteAsync>b__21_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Edit/<<ExecuteAsync>b__21_1>d::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 469,
+              "EndOffset": 471,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 469,
+              "EndOffset": 582,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 1118,
+              "EndOffset": 1120,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 1118,
+              "EndOffset": 1231,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1721,
+              "EndOffset": 1723,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1721,
+              "EndOffset": 1834,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2338,
+              "EndOffset": 2340,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2338,
+              "EndOffset": 2451,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 2955,
+              "EndOffset": 2957,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 2955,
+              "EndOffset": 3069,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Categories_Edit/<<ExecuteAsync>b__21_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Edit/<<ExecuteAsync>b__21_2>d::MoveNext()": {
+          "Lines": {
+            "31": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Categories_Edit/<ExecuteAsync>d__21": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Edit/<ExecuteAsync>d__21::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Categories\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Categories_Index/<ExecuteAsync>d__13": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Categories_Index/<ExecuteAsync>d__13::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "22": 0,
+            "25": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 440,
+              "EndOffset": 442,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 440,
+              "EndOffset": 553,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 2361,
+              "EndOffset": 700,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1094,
+              "EndOffset": 1096,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 1094,
+              "EndOffset": 1129,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 1431,
+              "EndOffset": 1433,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 1431,
+              "EndOffset": 1544,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 1820,
+              "EndOffset": 1822,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 1820,
+              "EndOffset": 1855,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 2157,
+              "EndOffset": 2159,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 2157,
+              "EndOffset": 2270,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 2361,
+              "EndOffset": 2366,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Home\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Home_Index/<>c__DisplayClass8_0/<<ExecuteAsync>b__1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Index/<>c__DisplayClass8_0/<<ExecuteAsync>b__1>d::MoveNext()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Home_Index/<ExecuteAsync>d__8": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Index/<ExecuteAsync>d__8::MoveNext()": {
+          "Lines": {
+            "3": 0,
+            "18": 0,
+            "19": 0,
+            "21": 0,
+            "28": 0,
+            "30": 0,
+            "34": 0,
+            "35": 0,
+            "41": 0,
+            "42": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 3,
+              "Offset": 477,
+              "EndOffset": 479,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 3,
+              "Offset": 477,
+              "EndOffset": 590,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 1394,
+              "EndOffset": 718,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 1190,
+              "EndOffset": 1192,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 1190,
+              "EndOffset": 1303,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 1394,
+              "EndOffset": 1399,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 2242,
+              "EndOffset": 1486,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2005,
+              "EndOffset": 2010,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2005,
+              "EndOffset": 2142,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 2242,
+              "EndOffset": 2247,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Home\\Privacy.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Home_Privacy/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Home_Privacy/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 0,
+            "4": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Offers\\Create.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Offers_Create/<<ExecuteAsync>b__20_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Create/<<ExecuteAsync>b__20_1>d::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 559,
+              "EndOffset": 561,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 559,
+              "EndOffset": 672,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1162,
+              "EndOffset": 1164,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1162,
+              "EndOffset": 1275,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1779,
+              "EndOffset": 1781,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1779,
+              "EndOffset": 1892,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2396,
+              "EndOffset": 2398,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2396,
+              "EndOffset": 2509,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 2999,
+              "EndOffset": 3001,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 2999,
+              "EndOffset": 3113,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3618,
+              "EndOffset": 3620,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3618,
+              "EndOffset": 3732,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4237,
+              "EndOffset": 4239,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4237,
+              "EndOffset": 4351,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 4842,
+              "EndOffset": 4844,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 4842,
+              "EndOffset": 4956,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5461,
+              "EndOffset": 5463,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5461,
+              "EndOffset": 5575,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6080,
+              "EndOffset": 6082,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6080,
+              "EndOffset": 6194,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Offers_Create/<<ExecuteAsync>b__20_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Create/<<ExecuteAsync>b__20_2>d::MoveNext()": {
+          "Lines": {
+            "36": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Offers_Create/<ExecuteAsync>d__20": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Create/<ExecuteAsync>d__20::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Offers\\Delete.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Offers_Delete/<<ExecuteAsync>b__15_3>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Delete/<<ExecuteAsync>b__15_3>d::MoveNext()": {
+          "Lines": {
+            "34": 0
+          },
+          "Branches": [
+            {
+              "Line": 34,
+              "Offset": 527,
+              "EndOffset": 529,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 527,
+              "EndOffset": 640,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 1041,
+              "EndOffset": 1043,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 1041,
+              "EndOffset": 1154,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Offers_Delete/<ExecuteAsync>d__15": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Delete/<ExecuteAsync>d__15::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "17": 0,
+            "23": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 772,
+              "EndOffset": 774,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 772,
+              "EndOffset": 885,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Offers\\Details.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Offers_Details/<ExecuteAsync>d__11": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Details/<ExecuteAsync>d__11::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "18": 0,
+            "24": 0,
+            "30": 0,
+            "35": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 621,
+              "EndOffset": 623,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 621,
+              "EndOffset": 656,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 686,
+              "EndOffset": 688,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 686,
+              "EndOffset": 700,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 979,
+              "EndOffset": 981,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 979,
+              "EndOffset": 1093,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 1495,
+              "EndOffset": 1497,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 1495,
+              "EndOffset": 1609,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Offers\\Edit.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Offers_Edit/<<ExecuteAsync>b__21_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Edit/<<ExecuteAsync>b__21_1>d::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 577,
+              "EndOffset": 579,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 577,
+              "EndOffset": 690,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 1226,
+              "EndOffset": 1228,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 1226,
+              "EndOffset": 1339,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1829,
+              "EndOffset": 1831,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1829,
+              "EndOffset": 1942,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2446,
+              "EndOffset": 2448,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2446,
+              "EndOffset": 2559,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 3063,
+              "EndOffset": 3065,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 3063,
+              "EndOffset": 3177,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 3668,
+              "EndOffset": 3670,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 3668,
+              "EndOffset": 3782,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 4287,
+              "EndOffset": 4289,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 4287,
+              "EndOffset": 4401,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 4906,
+              "EndOffset": 4908,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 4906,
+              "EndOffset": 5020,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 5511,
+              "EndOffset": 5513,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 5511,
+              "EndOffset": 5625,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 6130,
+              "EndOffset": 6132,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 6130,
+              "EndOffset": 6244,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 6749,
+              "EndOffset": 6751,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 6749,
+              "EndOffset": 6863,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Offers_Edit/<<ExecuteAsync>b__21_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Edit/<<ExecuteAsync>b__21_2>d::MoveNext()": {
+          "Lines": {
+            "39": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Offers_Edit/<ExecuteAsync>d__21": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Edit/<ExecuteAsync>d__21::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Offers\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Offers_Index/<ExecuteAsync>d__15": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Offers_Index/<ExecuteAsync>d__15::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "30": 0,
+            "31": 0,
+            "34": 0,
+            "38": 0,
+            "41": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 448,
+              "EndOffset": 450,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 448,
+              "EndOffset": 561,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 3391,
+              "EndOffset": 726,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 1398,
+              "EndOffset": 1400,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 41,
+              "Offset": 1398,
+              "EndOffset": 1433,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 1735,
+              "EndOffset": 1737,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 1735,
+              "EndOffset": 1848,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 2124,
+              "EndOffset": 2126,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 2124,
+              "EndOffset": 2159,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2461,
+              "EndOffset": 2463,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2461,
+              "EndOffset": 2574,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2850,
+              "EndOffset": 2852,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 2850,
+              "EndOffset": 2885,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 3187,
+              "EndOffset": 3189,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 3187,
+              "EndOffset": 3300,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 3391,
+              "EndOffset": 3396,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Products\\Create.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Products_Create/<<ExecuteAsync>b__23_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Create/<<ExecuteAsync>b__23_1>d::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "35": 0,
+            "36": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 652,
+              "EndOffset": 654,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 652,
+              "EndOffset": 765,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1255,
+              "EndOffset": 1257,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1255,
+              "EndOffset": 1368,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1872,
+              "EndOffset": 1874,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 1872,
+              "EndOffset": 1985,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2489,
+              "EndOffset": 2491,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 2489,
+              "EndOffset": 2602,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3106,
+              "EndOffset": 3108,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 20,
+              "Offset": 3106,
+              "EndOffset": 3220,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3725,
+              "EndOffset": 3727,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 3725,
+              "EndOffset": 3839,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4344,
+              "EndOffset": 4346,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 4344,
+              "EndOffset": 4458,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 4949,
+              "EndOffset": 4951,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 4949,
+              "EndOffset": 5063,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5644,
+              "EndOffset": 5646,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 26,
+              "Offset": 5644,
+              "EndOffset": 5758,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6263,
+              "EndOffset": 6265,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 6263,
+              "EndOffset": 6377,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 6868,
+              "EndOffset": 6870,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 6868,
+              "EndOffset": 6982,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7487,
+              "EndOffset": 7489,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 31,
+              "Offset": 7487,
+              "EndOffset": 7601,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 8106,
+              "EndOffset": 8108,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 8106,
+              "EndOffset": 8220,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 8711,
+              "EndOffset": 8713,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 8711,
+              "EndOffset": 8825,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9197,
+              "EndOffset": 9201,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9197,
+              "EndOffset": 9237,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9257,
+              "EndOffset": 9261,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9257,
+              "EndOffset": 9308,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9538,
+              "EndOffset": 9540,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 9538,
+              "EndOffset": 9652,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Products_Create/<<ExecuteAsync>b__23_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Create/<<ExecuteAsync>b__23_2>d::MoveNext()": {
+          "Lines": {
+            "46": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Products_Create/<ExecuteAsync>d__23": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Create/<ExecuteAsync>d__23::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Products\\Delete.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Products_Delete/<<ExecuteAsync>b__15_5>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Delete/<<ExecuteAsync>b__15_5>d::MoveNext()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": [
+            {
+              "Line": 47,
+              "Offset": 527,
+              "EndOffset": 529,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 527,
+              "EndOffset": 640,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 1041,
+              "EndOffset": 1043,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 1041,
+              "EndOffset": 1154,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Products_Delete/<ExecuteAsync>d__15": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Delete/<ExecuteAsync>d__15::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "18": 0,
+            "24": 0,
+            "30": 0,
+            "36": 0,
+            "42": 0
+          },
+          "Branches": [
+            {
+              "Line": 42,
+              "Offset": 1064,
+              "EndOffset": 1066,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 1064,
+              "EndOffset": 1177,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Products\\Details.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Products_Details/<ExecuteAsync>d__11": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Details/<ExecuteAsync>d__11::MoveNext()": {
+          "Lines": {
+            "4": 0,
+            "6": 0,
+            "7": 0,
+            "8": 0,
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "27": 0,
+            "33": 0,
+            "39": 0,
+            "45": 0,
+            "51": 0,
+            "56": 0,
+            "57": 0,
+            "59": 0,
+            "61": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "94": 0,
+            "98": 0,
+            "102": 0,
+            "106": 0,
+            "110": 0,
+            "114": 0
+          },
+          "Branches": [
+            {
+              "Line": 8,
+              "Offset": 139,
+              "EndOffset": 141,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 8,
+              "Offset": 139,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 861,
+              "EndOffset": 866,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 861,
+              "EndOffset": 1077,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 1100,
+              "EndOffset": 1105,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 1661,
+              "EndOffset": 1665,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 1661,
+              "EndOffset": 1702,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 1722,
+              "EndOffset": 1726,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 1722,
+              "EndOffset": 1773,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 66,
+              "Offset": 1100,
+              "EndOffset": 2936,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 3157,
+              "EndOffset": 3159,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 110,
+              "Offset": 3157,
+              "EndOffset": 3192,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 3222,
+              "EndOffset": 3224,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 3222,
+              "EndOffset": 3237,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 3516,
+              "EndOffset": 3518,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 3516,
+              "EndOffset": 3630,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 4032,
+              "EndOffset": 4034,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 4032,
+              "EndOffset": 4146,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Products\\Edit.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Products_Edit/<<ExecuteAsync>b__22_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Edit/<<ExecuteAsync>b__22_1>d::MoveNext()": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0
+          },
+          "Branches": [
+            {
+              "Line": 12,
+              "Offset": 688,
+              "EndOffset": 690,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 12,
+              "Offset": 688,
+              "EndOffset": 801,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 1337,
+              "EndOffset": 1339,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 13,
+              "Offset": 1337,
+              "EndOffset": 1450,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1940,
+              "EndOffset": 1942,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 17,
+              "Offset": 1940,
+              "EndOffset": 2053,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2557,
+              "EndOffset": 2559,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 18,
+              "Offset": 2557,
+              "EndOffset": 2670,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 3174,
+              "EndOffset": 3176,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 19,
+              "Offset": 3174,
+              "EndOffset": 3288,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 3793,
+              "EndOffset": 3795,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 22,
+              "Offset": 3793,
+              "EndOffset": 3907,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 4412,
+              "EndOffset": 4414,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 23,
+              "Offset": 4412,
+              "EndOffset": 4526,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 5031,
+              "EndOffset": 5033,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 0
+            },
+            {
+              "Line": 24,
+              "Offset": 5031,
+              "EndOffset": 5145,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 5636,
+              "EndOffset": 5638,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 5636,
+              "EndOffset": 5750,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 6255,
+              "EndOffset": 6257,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 6255,
+              "EndOffset": 6369,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 6874,
+              "EndOffset": 6876,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 0
+            },
+            {
+              "Line": 29,
+              "Offset": 6874,
+              "EndOffset": 6988,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 7479,
+              "EndOffset": 7481,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 7479,
+              "EndOffset": 7593,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 8098,
+              "EndOffset": 8100,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 0
+            },
+            {
+              "Line": 33,
+              "Offset": 8098,
+              "EndOffset": 8212,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 8717,
+              "EndOffset": 8719,
+              "Path": 0,
+              "Ordinal": 26,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 8717,
+              "EndOffset": 8831,
+              "Path": 1,
+              "Ordinal": 27,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 9322,
+              "EndOffset": 9324,
+              "Path": 0,
+              "Ordinal": 28,
+              "Hits": 0
+            },
+            {
+              "Line": 37,
+              "Offset": 9322,
+              "EndOffset": 9436,
+              "Path": 1,
+              "Ordinal": 29,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 9808,
+              "EndOffset": 9812,
+              "Path": 1,
+              "Ordinal": 31,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 9808,
+              "EndOffset": 9848,
+              "Path": 0,
+              "Ordinal": 30,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 9868,
+              "EndOffset": 9872,
+              "Path": 1,
+              "Ordinal": 33,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 9868,
+              "EndOffset": 9919,
+              "Path": 0,
+              "Ordinal": 32,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 10149,
+              "EndOffset": 10151,
+              "Path": 0,
+              "Ordinal": 34,
+              "Hits": 0
+            },
+            {
+              "Line": 38,
+              "Offset": 10149,
+              "EndOffset": 10263,
+              "Path": 1,
+              "Ordinal": 35,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 10768,
+              "EndOffset": 10770,
+              "Path": 0,
+              "Ordinal": 36,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 10768,
+              "EndOffset": 10882,
+              "Path": 1,
+              "Ordinal": 37,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Products_Edit/<<ExecuteAsync>b__22_2>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Edit/<<ExecuteAsync>b__22_2>d::MoveNext()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Products_Edit/<ExecuteAsync>d__22": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Edit/<ExecuteAsync>d__22::MoveNext()": {
+          "Lines": {
+            "4": 0
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 439,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 437,
+              "EndOffset": 550,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1003,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 4,
+              "Offset": 1001,
+              "EndOffset": 1114,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Products\\Index.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Products_Index/<ExecuteAsync>d__15": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Products_Index/<ExecuteAsync>d__15::MoveNext()": {
+          "Lines": {
+            "4": 1,
+            "36": 69,
+            "39": 22,
+            "43": 22,
+            "46": 22,
+            "49": 22,
+            "53": 22,
+            "56": 22,
+            "57": 22,
+            "58": 22,
+            "61": 22
+          },
+          "Branches": [
+            {
+              "Line": 4,
+              "Offset": 448,
+              "EndOffset": 450,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 4,
+              "Offset": 448,
+              "EndOffset": 561,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 36,
+              "Offset": 3757,
+              "EndOffset": 726,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 22
+            },
+            {
+              "Line": 53,
+              "Offset": 1764,
+              "EndOffset": 1766,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 53,
+              "Offset": 1764,
+              "EndOffset": 1799,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 22
+            },
+            {
+              "Line": 56,
+              "Offset": 2101,
+              "EndOffset": 2103,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 22
+            },
+            {
+              "Line": 56,
+              "Offset": 2101,
+              "EndOffset": 2214,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 22
+            },
+            {
+              "Line": 56,
+              "Offset": 2490,
+              "EndOffset": 2492,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 56,
+              "Offset": 2490,
+              "EndOffset": 2525,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 22
+            },
+            {
+              "Line": 57,
+              "Offset": 2827,
+              "EndOffset": 2829,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 22
+            },
+            {
+              "Line": 57,
+              "Offset": 2827,
+              "EndOffset": 2940,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 22
+            },
+            {
+              "Line": 57,
+              "Offset": 3216,
+              "EndOffset": 3218,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 0
+            },
+            {
+              "Line": 57,
+              "Offset": 3216,
+              "EndOffset": 3251,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 22
+            },
+            {
+              "Line": 58,
+              "Offset": 3553,
+              "EndOffset": 3555,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 22
+            },
+            {
+              "Line": 58,
+              "Offset": 3553,
+              "EndOffset": 3666,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 22
+            },
+            {
+              "Line": 36,
+              "Offset": 3757,
+              "EndOffset": 3762,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Shared\\_LoginPartial.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Shared__LoginPartial/<<ExecuteAsync>b__19_0>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__LoginPartial/<<ExecuteAsync>b__19_0>d::MoveNext()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Shared__LoginPartial/<ExecuteAsync>d__19": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__LoginPartial/<ExecuteAsync>d__19::MoveNext()": {
+          "Lines": {
+            "9": 2,
+            "10": 0,
+            "15": 0,
+            "19": 0,
+            "21": 2,
+            "25": 2
+          },
+          "Branches": [
+            {
+              "Line": 9,
+              "Offset": 133,
+              "EndOffset": 138,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 580,
+              "EndOffset": 582,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 580,
+              "EndOffset": 693,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 1095,
+              "EndOffset": 1097,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 10,
+              "Offset": 1095,
+              "EndOffset": 1130,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1447,
+              "EndOffset": 1449,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 15,
+              "Offset": 1447,
+              "EndOffset": 1560,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 9,
+              "Offset": 133,
+              "EndOffset": 1638,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 21,
+              "Offset": 2061,
+              "EndOffset": 2063,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 2
+            },
+            {
+              "Line": 21,
+              "Offset": 2061,
+              "EndOffset": 2174,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\_ViewStart.cshtml": {
+      "AspNetCoreGeneratedDocument.Views__ViewStart/<ExecuteAsync>d__0": {
+        "System.Void AspNetCoreGeneratedDocument.Views__ViewStart/<ExecuteAsync>d__0::MoveNext()": {
+          "Lines": {
+            "2": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Views\\Shared\\_Layout.cshtml": {
+      "AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__32_0>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__32_0>d::MoveNext()": {
+          "Lines": {
+            "13": 2,
+            "15": 2,
+            "16": 2
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 443,
+              "EndOffset": 445,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 13,
+              "Offset": 443,
+              "EndOffset": 556,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 15,
+              "Offset": 1088,
+              "EndOffset": 1090,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 2
+            },
+            {
+              "Line": 15,
+              "Offset": 1088,
+              "EndOffset": 1201,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 1733,
+              "EndOffset": 1735,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 1733,
+              "EndOffset": 1846,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__32_1>d": {
+        "System.Void AspNetCoreGeneratedDocument.Views_Shared__Layout/<<ExecuteAsync>b__32_1>d::MoveNext()": {
+          "Lines": {
+            "29": 2,
+            "30": 1,
+            "40": 1,
+            "53": 2,
+            "64": 2,
+            "65": 2,
+            "66": 2,
+            "68": 2
+          },
+          "Branches": [
+            {
+              "Line": 29,
+              "Offset": 690,
+              "EndOffset": 692,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 690,
+              "EndOffset": 803,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 29,
+              "Offset": 900,
+              "EndOffset": 905,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 1360,
+              "EndOffset": 1362,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 1360,
+              "EndOffset": 1473,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 1982,
+              "EndOffset": 1984,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 1982,
+              "EndOffset": 2095,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 2604,
+              "EndOffset": 2606,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            },
+            {
+              "Line": 30,
+              "Offset": 2604,
+              "EndOffset": 2717,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 29,
+              "Offset": 900,
+              "EndOffset": 2790,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 40,
+              "Offset": 3244,
+              "EndOffset": 3246,
+              "Path": 0,
+              "Ordinal": 10,
+              "Hits": 2
+            },
+            {
+              "Line": 40,
+              "Offset": 3244,
+              "EndOffset": 3358,
+              "Path": 1,
+              "Ordinal": 11,
+              "Hits": 2
+            },
+            {
+              "Line": 40,
+              "Offset": 3752,
+              "EndOffset": 3754,
+              "Path": 0,
+              "Ordinal": 12,
+              "Hits": 0
+            },
+            {
+              "Line": 40,
+              "Offset": 3752,
+              "EndOffset": 3866,
+              "Path": 1,
+              "Ordinal": 13,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 4394,
+              "EndOffset": 4396,
+              "Path": 0,
+              "Ordinal": 14,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 4394,
+              "EndOffset": 4508,
+              "Path": 1,
+              "Ordinal": 15,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 4870,
+              "EndOffset": 4872,
+              "Path": 0,
+              "Ordinal": 16,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 4870,
+              "EndOffset": 4984,
+              "Path": 1,
+              "Ordinal": 17,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 5346,
+              "EndOffset": 5348,
+              "Path": 0,
+              "Ordinal": 18,
+              "Hits": 2
+            },
+            {
+              "Line": 53,
+              "Offset": 5346,
+              "EndOffset": 5460,
+              "Path": 1,
+              "Ordinal": 19,
+              "Hits": 2
+            },
+            {
+              "Line": 64,
+              "Offset": 5971,
+              "EndOffset": 5973,
+              "Path": 0,
+              "Ordinal": 20,
+              "Hits": 2
+            },
+            {
+              "Line": 64,
+              "Offset": 5971,
+              "EndOffset": 6085,
+              "Path": 1,
+              "Ordinal": 21,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 6596,
+              "EndOffset": 6598,
+              "Path": 0,
+              "Ordinal": 22,
+              "Hits": 2
+            },
+            {
+              "Line": 65,
+              "Offset": 6596,
+              "EndOffset": 6710,
+              "Path": 1,
+              "Ordinal": 23,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 7221,
+              "EndOffset": 7223,
+              "Path": 0,
+              "Ordinal": 24,
+              "Hits": 2
+            },
+            {
+              "Line": 66,
+              "Offset": 7221,
+              "EndOffset": 7335,
+              "Path": 1,
+              "Ordinal": 25,
+              "Hits": 2
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\ViewModel\\HomeViewModel.cs": {
+      "Mercadona.ViewModel.HomeViewModel": {
+        "System.Collections.Generic.List`1<Mercadona.Models.Product> Mercadona.ViewModel.HomeViewModel::get_Products()": {
+          "Lines": {
+            "7": 3
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.Dictionary`2<System.Int32,System.Decimal> Mercadona.ViewModel.HomeViewModel::get_NewPrices()": {
+          "Lines": {
+            "8": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Mercadona.Models.Category> Mercadona.ViewModel.HomeViewModel::get_Categories()": {
+          "Lines": {
+            "9": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Models\\Category.cs": {
+      "Mercadona.Models.Category": {
+        "System.Int32 Mercadona.Models.Category::get_Id()": {
+          "Lines": {
+            "5": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Models.Category::get_Name()": {
+          "Lines": {
+            "6": 29
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Mercadona.Models.Product> Mercadona.Models.Category::get_Products()": {
+          "Lines": {
+            "8": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Models\\Offer.cs": {
+      "Mercadona.Models.Offer": {
+        "System.Int32 Mercadona.Models.Offer::get_Id()": {
+          "Lines": {
+            "7": 2
+          },
+          "Branches": []
+        },
+        "System.DateTime Mercadona.Models.Offer::get_StartDate()": {
+          "Lines": {
+            "8": 3
+          },
+          "Branches": []
+        },
+        "System.DateTime Mercadona.Models.Offer::get_EndDate()": {
+          "Lines": {
+            "9": 3
+          },
+          "Branches": []
+        },
+        "System.Int32 Mercadona.Models.Offer::get_Discount()": {
+          "Lines": {
+            "10": 4
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Mercadona.Models.Product> Mercadona.Models.Offer::get_Products()": {
+          "Lines": {
+            "12": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Models\\Product.cs": {
+      "Mercadona.Models.Product": {
+        "System.Int32 Mercadona.Models.Product::get_Id()": {
+          "Lines": {
+            "8": 76
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Models.Product::get_Name()": {
+          "Lines": {
+            "9": 33
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Models.Product::get_Description()": {
+          "Lines": {
+            "10": 30
+          },
+          "Branches": []
+        },
+        "System.Decimal Mercadona.Models.Product::get_Price()": {
+          "Lines": {
+            "11": 34
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Models.Product::get_Picture()": {
+          "Lines": {
+            "12": 30
+          },
+          "Branches": []
+        },
+        "System.Int32 Mercadona.Models.Product::get_CategoryId()": {
+          "Lines": {
+            "14": 0
+          },
+          "Branches": []
+        },
+        "Mercadona.Models.Category Mercadona.Models.Product::get_Category()": {
+          "Lines": {
+            "15": 29
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.Int32> Mercadona.Models.Product::get_OfferId()": {
+          "Lines": {
+            "17": 5
+          },
+          "Branches": []
+        },
+        "Mercadona.Models.Offer Mercadona.Models.Product::get_Offer()": {
+          "Lines": {
+            "18": 6
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Migrations\\20231016120500_userContext.cs": {
+      "Mercadona.Migrations.userContext": {
+        "System.Void Mercadona.Migrations.userContext::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "218": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0
+          },
+          "Branches": []
+        },
+        "System.Void Mercadona.Migrations.userContext::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "268": 0,
+            "269": 0,
+            "271": 0,
+            "272": 0,
+            "274": 0,
+            "275": 0,
+            "277": 0,
+            "278": 0,
+            "280": 0,
+            "281": 0,
+            "283": 0,
+            "284": 0,
+            "286": 0,
+            "287": 0,
+            "289": 0,
+            "290": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Migrations\\20231016120500_userContext.Designer.cs": {
+      "Mercadona.Migrations.userContext": {
+        "System.Void Mercadona.Migrations.userContext::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "19": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "25": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "191": 0,
+            "192": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "216": 0,
+            "217": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0,
+            "266": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "280": 0,
+            "281": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "301": 0,
+            "302": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "317": 0,
+            "318": 0,
+            "319": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "327": 0,
+            "328": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "336": 0,
+            "337": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "345": 0,
+            "346": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "354": 0,
+            "355": 0,
+            "356": 0,
+            "357": 0,
+            "358": 0,
+            "359": 0,
+            "360": 0,
+            "361": 0,
+            "363": 0,
+            "364": 0,
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "369": 0,
+            "370": 0,
+            "372": 0,
+            "373": 0,
+            "374": 0,
+            "375": 0,
+            "377": 0,
+            "378": 0,
+            "379": 0,
+            "380": 0,
+            "382": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Migrations\\MercadonaDbContextModelSnapshot.cs": {
+      "Mercadona.Migrations.MercadonaDbContextModelSnapshot": {
+        "System.Void Mercadona.Migrations.MercadonaDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "23": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0,
+            "142": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "169": 0,
+            "170": 0,
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "184": 0,
+            "185": 0,
+            "186": 0,
+            "187": 0,
+            "188": 0,
+            "189": 0,
+            "190": 0,
+            "192": 0,
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "197": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "203": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0,
+            "207": 0,
+            "208": 0,
+            "209": 0,
+            "210": 0,
+            "211": 0,
+            "212": 0,
+            "213": 0,
+            "214": 0,
+            "215": 0,
+            "217": 0,
+            "218": 0,
+            "219": 0,
+            "220": 0,
+            "221": 0,
+            "222": 0,
+            "223": 0,
+            "224": 0,
+            "225": 0,
+            "226": 0,
+            "227": 0,
+            "228": 0,
+            "229": 0,
+            "230": 0,
+            "231": 0,
+            "232": 0,
+            "233": 0,
+            "234": 0,
+            "235": 0,
+            "236": 0,
+            "237": 0,
+            "238": 0,
+            "239": 0,
+            "240": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "250": 0,
+            "251": 0,
+            "252": 0,
+            "253": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "260": 0,
+            "261": 0,
+            "262": 0,
+            "263": 0,
+            "264": 0,
+            "266": 0,
+            "267": 0,
+            "268": 0,
+            "269": 0,
+            "270": 0,
+            "271": 0,
+            "272": 0,
+            "273": 0,
+            "274": 0,
+            "275": 0,
+            "276": 0,
+            "277": 0,
+            "278": 0,
+            "279": 0,
+            "281": 0,
+            "282": 0,
+            "283": 0,
+            "284": 0,
+            "285": 0,
+            "286": 0,
+            "287": 0,
+            "288": 0,
+            "289": 0,
+            "290": 0,
+            "291": 0,
+            "292": 0,
+            "293": 0,
+            "294": 0,
+            "295": 0,
+            "296": 0,
+            "297": 0,
+            "298": 0,
+            "299": 0,
+            "300": 0,
+            "302": 0,
+            "303": 0,
+            "304": 0,
+            "305": 0,
+            "306": 0,
+            "307": 0,
+            "308": 0,
+            "309": 0,
+            "310": 0,
+            "311": 0,
+            "312": 0,
+            "313": 0,
+            "314": 0,
+            "315": 0,
+            "316": 0,
+            "317": 0,
+            "319": 0,
+            "320": 0,
+            "321": 0,
+            "322": 0,
+            "323": 0,
+            "324": 0,
+            "325": 0,
+            "326": 0,
+            "328": 0,
+            "329": 0,
+            "330": 0,
+            "331": 0,
+            "332": 0,
+            "333": 0,
+            "334": 0,
+            "335": 0,
+            "337": 0,
+            "338": 0,
+            "339": 0,
+            "340": 0,
+            "341": 0,
+            "342": 0,
+            "343": 0,
+            "344": 0,
+            "346": 0,
+            "347": 0,
+            "348": 0,
+            "349": 0,
+            "350": 0,
+            "351": 0,
+            "352": 0,
+            "353": 0,
+            "354": 0,
+            "355": 0,
+            "356": 0,
+            "357": 0,
+            "358": 0,
+            "359": 0,
+            "361": 0,
+            "362": 0,
+            "363": 0,
+            "364": 0,
+            "365": 0,
+            "366": 0,
+            "367": 0,
+            "368": 0,
+            "370": 0,
+            "371": 0,
+            "372": 0,
+            "373": 0,
+            "375": 0,
+            "376": 0,
+            "377": 0,
+            "378": 0,
+            "380": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Controllers\\CategoriesController.cs": {
+      "Mercadona.Controllers.CategoriesController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Mercadona.Controllers.CategoriesController::Create()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Mercadona.Controllers.CategoriesController::CategoryExists(System.Int32)": {
+          "Lines": {
+            "144": 0,
+            "145": 0,
+            "146": 0
+          },
+          "Branches": [
+            {
+              "Line": 145,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 145,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Mercadona.Controllers.CategoriesController::.ctor(Mercadona.Context.MercadonaDbContext)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Controllers.CategoriesController/<Create>d__4": {
+        "System.Void Mercadona.Controllers.CategoriesController/<Create>d__4::MoveNext()": {
+          "Lines": {
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "50": 0,
+            "52": 0,
+            "53": 0
+          },
+          "Branches": [
+            {
+              "Line": 46,
+              "Offset": 33,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 46,
+              "Offset": 33,
+              "EndOffset": 195,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.CategoriesController/<Delete>d__7": {
+        "System.Void Mercadona.Controllers.CategoriesController/<Delete>d__7::MoveNext()": {
+          "Lines": {
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0,
+            "118": 0,
+            "121": 0,
+            "122": 0
+          },
+          "Branches": [
+            {
+              "Line": 109,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 383,
+              "EndOffset": 400,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.CategoriesController/<DeleteConfirmed>d__8": {
+        "System.Void Mercadona.Controllers.CategoriesController/<DeleteConfirmed>d__8::MoveNext()": {
+          "Lines": {
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "139": 0,
+            "140": 0,
+            "141": 0
+          },
+          "Branches": [
+            {
+              "Line": 129,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 50,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 263,
+              "EndOffset": 265,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 134,
+              "Offset": 263,
+              "EndOffset": 295,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.CategoriesController/<Edit>d__5": {
+        "System.Void Mercadona.Controllers.CategoriesController/<Edit>d__5::MoveNext()": {
+          "Lines": {
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "68": 0,
+            "69": 0
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 29,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 58,
+              "Offset": 55,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 248,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.CategoriesController/<Edit>d__6": {
+        "System.Void Mercadona.Controllers.CategoriesController/<Edit>d__6::MoveNext()": {
+          "Lines": {
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "83": 0,
+            "84": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "97": 0,
+            "98": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 78,
+              "Offset": 39,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 77,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 269,
+              "EndOffset": 271,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 269,
+              "EndOffset": 286,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 83,
+              "Offset": 77,
+              "EndOffset": 308,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.CategoriesController/<Index>d__2": {
+        "System.Void Mercadona.Controllers.CategoriesController/<Index>d__2::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 31,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 31,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Controllers\\HomeController.cs": {
+      "Mercadona.Controllers.HomeController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Mercadona.Controllers.HomeController::Privacy()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Void Mercadona.Controllers.HomeController::.ctor(Microsoft.Extensions.Logging.ILogger`1<Mercadona.Controllers.HomeController>,Mercadona.Context.MercadonaDbContext)": {
+          "Lines": {
+            "17": 1,
+            "18": 1,
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Controllers.HomeController/<Index>d__3": {
+        "System.Void Mercadona.Controllers.HomeController/<Index>d__3::MoveNext()": {
+          "Lines": {
+            "24": 1,
+            "25": 1,
+            "26": 1,
+            "28": 1,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "35": 1,
+            "37": 5,
+            "38": 1,
+            "39": 1,
+            "40": 1,
+            "41": 1,
+            "42": 1,
+            "43": 1,
+            "44": 1,
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1
+          },
+          "Branches": [
+            {
+              "Line": 28,
+              "Offset": 244,
+              "EndOffset": 249,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 28,
+              "Offset": 244,
+              "EndOffset": 474,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 745,
+              "EndOffset": 519,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 548,
+              "EndOffset": 550,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 576,
+              "EndOffset": 578,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 548,
+              "EndOffset": 606,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 576,
+              "EndOffset": 606,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 611,
+              "EndOffset": 613,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 611,
+              "EndOffset": 726,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 1
+            },
+            {
+              "Line": 37,
+              "Offset": 745,
+              "EndOffset": 750,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 1
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Controllers\\OffersController.cs": {
+      "Mercadona.Controllers.OffersController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Mercadona.Controllers.OffersController::Create()": {
+          "Lines": {
+            "52": 0,
+            "53": 0,
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Mercadona.Controllers.OffersController::OfferExists(System.Int32)": {
+          "Lines": {
+            "168": 0,
+            "169": 0,
+            "170": 0
+          },
+          "Branches": [
+            {
+              "Line": 169,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 169,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Mercadona.Controllers.OffersController::.ctor(Mercadona.Context.MercadonaDbContext)": {
+          "Lines": {
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Controllers.OffersController/<Create>d__5": {
+        "System.Void Mercadona.Controllers.OffersController/<Create>d__5::MoveNext()": {
+          "Lines": {
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0
+          },
+          "Branches": [
+            {
+              "Line": 63,
+              "Offset": 33,
+              "EndOffset": 38,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 63,
+              "Offset": 33,
+              "EndOffset": 195,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.OffersController/<Delete>d__8": {
+        "System.Void Mercadona.Controllers.OffersController/<Delete>d__8::MoveNext()": {
+          "Lines": {
+            "125": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "138": 0,
+            "139": 0
+          },
+          "Branches": [
+            {
+              "Line": 126,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 126,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 133,
+              "Offset": 383,
+              "EndOffset": 400,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.OffersController/<DeleteConfirmed>d__9": {
+        "System.Void Mercadona.Controllers.OffersController/<DeleteConfirmed>d__9::MoveNext()": {
+          "Lines": {
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "148": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "155": 0,
+            "156": 0,
+            "157": 0,
+            "158": 0,
+            "160": 0,
+            "161": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0
+          },
+          "Branches": [
+            {
+              "Line": 146,
+              "Offset": 78,
+              "EndOffset": 80,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 146,
+              "Offset": 78,
+              "EndOffset": 115,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 151,
+              "Offset": 296,
+              "EndOffset": 301,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 523,
+              "EndOffset": 465,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 155,
+              "Offset": 523,
+              "EndOffset": 525,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 151,
+              "Offset": 296,
+              "EndOffset": 595,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.OffersController/<Details>d__3": {
+        "System.Void Mercadona.Controllers.OffersController/<Details>d__3::MoveNext()": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "47": 0,
+            "48": 0
+          },
+          "Branches": [
+            {
+              "Line": 35,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 35,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 383,
+              "EndOffset": 385,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 42,
+              "Offset": 383,
+              "EndOffset": 400,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.OffersController/<Edit>d__6": {
+        "System.Void Mercadona.Controllers.OffersController/<Edit>d__6::MoveNext()": {
+          "Lines": {
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "83": 0,
+            "85": 0,
+            "86": 0
+          },
+          "Branches": [
+            {
+              "Line": 75,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 29,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 75,
+              "Offset": 55,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 81,
+              "Offset": 248,
+              "EndOffset": 265,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.OffersController/<Edit>d__7": {
+        "System.Void Mercadona.Controllers.OffersController/<Edit>d__7::MoveNext()": {
+          "Lines": {
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "97": 0,
+            "100": 0,
+            "101": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0,
+            "114": 0,
+            "115": 0,
+            "118": 0,
+            "120": 0,
+            "121": 0
+          },
+          "Branches": [
+            {
+              "Line": 95,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 95,
+              "Offset": 39,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 77,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 269,
+              "EndOffset": 271,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 109,
+              "Offset": 269,
+              "EndOffset": 286,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 100,
+              "Offset": 77,
+              "EndOffset": 308,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.OffersController/<Index>d__2": {
+        "System.Void Mercadona.Controllers.OffersController/<Index>d__2::MoveNext()": {
+          "Lines": {
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0
+          },
+          "Branches": [
+            {
+              "Line": 27,
+              "Offset": 31,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 27,
+              "Offset": 31,
+              "EndOffset": 194,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Controllers\\ProductsController.cs": {
+      "Mercadona.Controllers.ProductsController": {
+        "Microsoft.AspNetCore.Mvc.IActionResult Mercadona.Controllers.ProductsController::Create()": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.Boolean Mercadona.Controllers.ProductsController::ProductExists(System.Int32)": {
+          "Lines": {
+            "209": 0,
+            "210": 0,
+            "211": 0
+          },
+          "Branches": [
+            {
+              "Line": 210,
+              "Offset": 26,
+              "EndOffset": 28,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 210,
+              "Offset": 26,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Mercadona.Controllers.ProductsController::.ctor(Mercadona.Context.MercadonaDbContext,Microsoft.Extensions.Logging.ILogger`1<Mercadona.Controllers.ProductsController>)": {
+          "Lines": {
+            "20": 4,
+            "21": 4,
+            "22": 4,
+            "23": 4,
+            "24": 4
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<>c": {
+        "System.Collections.Generic.IEnumerable`1<Microsoft.AspNetCore.Mvc.ModelBinding.ModelError> Mercadona.Controllers.ProductsController/<>c::<Edit>b__8_0(Microsoft.AspNetCore.Mvc.ModelBinding.ModelStateEntry)": {
+          "Lines": {
+            "157": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<AddOffer>d__12": {
+        "System.Void Mercadona.Controllers.ProductsController/<AddOffer>d__12::MoveNext()": {
+          "Lines": {
+            "217": 1,
+            "218": 1,
+            "219": 1,
+            "220": 1,
+            "221": 1,
+            "222": 1,
+            "223": 1,
+            "224": 1,
+            "225": 1,
+            "226": 1,
+            "227": 1,
+            "229": 1,
+            "231": 0,
+            "233": 0,
+            "234": 1
+          },
+          "Branches": [
+            {
+              "Line": 218,
+              "Offset": 64,
+              "EndOffset": 69,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 220,
+              "Offset": 97,
+              "EndOffset": 102,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 223,
+              "Offset": 264,
+              "EndOffset": 269,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 1
+            },
+            {
+              "Line": 223,
+              "Offset": 264,
+              "EndOffset": 433,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            },
+            {
+              "Line": 220,
+              "Offset": 97,
+              "EndOffset": 473,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 218,
+              "Offset": 64,
+              "EndOffset": 474,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<Create>d__6": {
+        "System.Void Mercadona.Controllers.ProductsController/<Create>d__6::MoveNext()": {
+          "Lines": {
+            "76": 1,
+            "78": 1,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "82": 1,
+            "84": 1,
+            "86": 1,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "95": 0,
+            "96": 0,
+            "97": 1
+          },
+          "Branches": [
+            {
+              "Line": 79,
+              "Offset": 45,
+              "EndOffset": 50,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 79,
+              "Offset": 45,
+              "EndOffset": 256,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<CreateOffer>d__13": {
+        "System.Void Mercadona.Controllers.ProductsController/<CreateOffer>d__13::MoveNext()": {
+          "Lines": {
+            "239": 0,
+            "240": 0,
+            "241": 0,
+            "242": 0,
+            "243": 0,
+            "244": 0,
+            "245": 0,
+            "246": 0,
+            "247": 0,
+            "248": 0,
+            "249": 0,
+            "251": 0,
+            "252": 0,
+            "254": 0,
+            "255": 0,
+            "256": 0,
+            "257": 0,
+            "258": 0,
+            "259": 0,
+            "261": 0,
+            "263": 0,
+            "264": 0,
+            "265": 0
+          },
+          "Branches": [
+            {
+              "Line": 240,
+              "Offset": 89,
+              "EndOffset": 94,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 242,
+              "Offset": 116,
+              "EndOffset": 121,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 255,
+              "Offset": 648,
+              "EndOffset": 653,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 255,
+              "Offset": 648,
+              "EndOffset": 803,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 242,
+              "Offset": 116,
+              "EndOffset": 843,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 240,
+              "Offset": 89,
+              "EndOffset": 844,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<Delete>d__9": {
+        "System.Void Mercadona.Controllers.ProductsController/<Delete>d__9::MoveNext()": {
+          "Lines": {
+            "171": 0,
+            "172": 0,
+            "173": 0,
+            "174": 0,
+            "177": 0,
+            "178": 0,
+            "179": 0,
+            "180": 0,
+            "181": 0,
+            "182": 0,
+            "183": 0,
+            "186": 0,
+            "187": 0
+          },
+          "Branches": [
+            {
+              "Line": 172,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 172,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 181,
+              "Offset": 513,
+              "EndOffset": 515,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 181,
+              "Offset": 513,
+              "EndOffset": 530,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<DeleteConfirmed>d__10": {
+        "System.Void Mercadona.Controllers.ProductsController/<DeleteConfirmed>d__10::MoveNext()": {
+          "Lines": {
+            "193": 0,
+            "194": 0,
+            "195": 0,
+            "196": 0,
+            "198": 0,
+            "199": 0,
+            "200": 0,
+            "201": 0,
+            "202": 0,
+            "204": 0,
+            "205": 0,
+            "206": 0
+          },
+          "Branches": [
+            {
+              "Line": 194,
+              "Offset": 50,
+              "EndOffset": 52,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 194,
+              "Offset": 50,
+              "EndOffset": 87,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 263,
+              "EndOffset": 265,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 199,
+              "Offset": 263,
+              "EndOffset": 295,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<Details>d__4": {
+        "System.Void Mercadona.Controllers.ProductsController/<Details>d__4::MoveNext()": {
+          "Lines": {
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "50": 0,
+            "51": 0,
+            "52": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "60": 0,
+            "61": 0
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 62,
+              "EndOffset": 64,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 62,
+              "EndOffset": 85,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 88,
+              "EndOffset": 90,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 36,
+              "Offset": 88,
+              "EndOffset": 108,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 513,
+              "EndOffset": 515,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 45,
+              "Offset": 513,
+              "EndOffset": 533,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 538,
+              "EndOffset": 542,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 50,
+              "Offset": 538,
+              "EndOffset": 599,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<Edit>d__7": {
+        "System.Void Mercadona.Controllers.ProductsController/<Edit>d__7::MoveNext()": {
+          "Lines": {
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0
+          },
+          "Branches": [
+            {
+              "Line": 102,
+              "Offset": 29,
+              "EndOffset": 31,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 29,
+              "EndOffset": 52,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 55,
+              "EndOffset": 57,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 102,
+              "Offset": 55,
+              "EndOffset": 75,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 248,
+              "EndOffset": 250,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 108,
+              "Offset": 248,
+              "EndOffset": 268,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<Edit>d__8": {
+        "System.Void Mercadona.Controllers.ProductsController/<Edit>d__8::MoveNext()": {
+          "Lines": {
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "126": 0,
+            "129": 0,
+            "130": 0,
+            "132": 0,
+            "133": 0,
+            "134": 0,
+            "135": 0,
+            "136": 0,
+            "137": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "142": 0,
+            "145": 0,
+            "146": 0,
+            "147": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "153": 0,
+            "154": 0,
+            "155": 0,
+            "159": 0,
+            "160": 0,
+            "161": 0,
+            "162": 0,
+            "163": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0
+          },
+          "Branches": [
+            {
+              "Line": 124,
+              "Offset": 39,
+              "EndOffset": 41,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 124,
+              "Offset": 39,
+              "EndOffset": 59,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 77,
+              "EndOffset": 82,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 272,
+              "EndOffset": 274,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 272,
+              "EndOffset": 376,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 129,
+              "Offset": 77,
+              "EndOffset": 645,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 159,
+              "Offset": 813,
+              "EndOffset": 728,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 159,
+              "Offset": 813,
+              "EndOffset": 815,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Controllers.ProductsController/<Index>d__3": {
+        "System.Void Mercadona.Controllers.ProductsController/<Index>d__3::MoveNext()": {
+          "Lines": {
+            "28": 2,
+            "29": 2,
+            "30": 2,
+            "31": 2
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Context\\MercadonaDbContext.cs": {
+      "Mercadona.Context.MercadonaDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Mercadona.Models.Product> Mercadona.Context.MercadonaDbContext::get_Products()": {
+          "Lines": {
+            "17": 21
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Mercadona.Models.Category> Mercadona.Context.MercadonaDbContext::get_Categories()": {
+          "Lines": {
+            "18": 13
+          },
+          "Branches": []
+        },
+        "Microsoft.EntityFrameworkCore.DbSet`1<Mercadona.Models.Offer> Mercadona.Context.MercadonaDbContext::get_Offers()": {
+          "Lines": {
+            "19": 13
+          },
+          "Branches": []
+        },
+        "System.Void Mercadona.Context.MercadonaDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "22": 2,
+            "23": 2,
+            "27": 2
+          },
+          "Branches": []
+        },
+        "System.Void Mercadona.Context.MercadonaDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Mercadona.Context.MercadonaDbContext>)": {
+          "Lines": {
+            "11": 12,
+            "12": 12,
+            "14": 12
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Bogus\\AddData.cs": {
+      "Mercadona.Bogus.AddData": {
+        "System.Void Mercadona.Bogus.AddData::GenerateData(Mercadona.Context.MercadonaDbContext)": {
+          "Lines": {
+            "14": 0,
+            "16": 0,
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "43": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0,
+            "53": 0,
+            "54": 0,
+            "55": 0,
+            "56": 0,
+            "57": 0,
+            "58": 0,
+            "59": 0,
+            "60": 0,
+            "61": 0,
+            "62": 0,
+            "63": 0,
+            "64": 0,
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "70": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0,
+            "76": 0,
+            "77": 0,
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "84": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0,
+            "88": 0,
+            "89": 0,
+            "90": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "99": 0,
+            "100": 0,
+            "101": 0,
+            "102": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "111": 0
+          },
+          "Branches": [
+            {
+              "Line": 30,
+              "Offset": 246,
+              "EndOffset": 151,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 30,
+              "Offset": 246,
+              "EndOffset": 248,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 447,
+              "EndOffset": 270,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 400,
+              "EndOffset": 402,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 62,
+              "Offset": 400,
+              "EndOffset": 420,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 47,
+              "Offset": 447,
+              "EndOffset": 452,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Bogus\\OfferFaker.cs": {
+      "Mercadona.Bogus.OfferFaker": {
+        "System.Void Mercadona.Bogus.OfferFaker::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Bogus\\ProductFaker.cs": {
+      "Mercadona.Bogus.ProductFaker": {
+        "System.Void Mercadona.Bogus.ProductFaker::.ctor()": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs": {
+      "Mercadona.Areas.Identity.Pages.Account.RegisterModel": {
+        "Mercadona.Areas.Identity.Pages.Account.RegisterModel/InputModel Mercadona.Areas.Identity.Pages.Account.RegisterModel::get_Input()": {
+          "Lines": {
+            "54": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.RegisterModel::get_ReturnUrl()": {
+          "Lines": {
+            "60": 0
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.IList`1<Microsoft.AspNetCore.Authentication.AuthenticationScheme> Mercadona.Areas.Identity.Pages.Account.RegisterModel::get_ExternalLogins()": {
+          "Lines": {
+            "66": 0
+          },
+          "Branches": []
+        },
+        "Mercadona.Models.MercadonaUser Mercadona.Areas.Identity.Pages.Account.RegisterModel::CreateUser()": {
+          "Lines": {
+            "159": 0,
+            "161": 0,
+            "162": 0,
+            "164": 0,
+            "165": 0,
+            "166": 0,
+            "167": 0,
+            "168": 0,
+            "170": 0
+          },
+          "Branches": []
+        },
+        "Microsoft.AspNetCore.Identity.IUserEmailStore`1<Mercadona.Models.MercadonaUser> Mercadona.Areas.Identity.Pages.Account.RegisterModel::GetEmailStore()": {
+          "Lines": {
+            "173": 0,
+            "174": 0,
+            "175": 0,
+            "176": 0,
+            "178": 0,
+            "179": 0
+          },
+          "Branches": [
+            {
+              "Line": 174,
+              "Offset": 17,
+              "EndOffset": 19,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 174,
+              "Offset": 17,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Mercadona.Areas.Identity.Pages.Account.RegisterModel::.ctor(Microsoft.AspNetCore.Identity.UserManager`1<Mercadona.Models.MercadonaUser>,Microsoft.AspNetCore.Identity.IUserStore`1<Mercadona.Models.MercadonaUser>,Microsoft.AspNetCore.Identity.SignInManager`1<Mercadona.Models.MercadonaUser>,Microsoft.Extensions.Logging.ILogger`1<Mercadona.Areas.Identity.Pages.Account.RegisterModel>,Microsoft.AspNetCore.Identity.UI.Services.IEmailSender)": {
+          "Lines": {
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.RegisterModel/InputModel": {
+        "System.String Mercadona.Areas.Identity.Pages.Account.RegisterModel/InputModel::get_Email()": {
+          "Lines": {
+            "81": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.RegisterModel/InputModel::get_Password()": {
+          "Lines": {
+            "91": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.RegisterModel/InputModel::get_ConfirmPassword()": {
+          "Lines": {
+            "100": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.RegisterModel/<OnGetAsync>d__20": {
+        "System.Void Mercadona.Areas.Identity.Pages.Account.RegisterModel/<OnGetAsync>d__20::MoveNext()": {
+          "Lines": {
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.RegisterModel/<OnPostAsync>d__21": {
+        "System.Void Mercadona.Areas.Identity.Pages.Account.RegisterModel/<OnPostAsync>d__21::MoveNext()": {
+          "Lines": {
+            "111": 0,
+            "112": 0,
+            "113": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "126": 0,
+            "127": 0,
+            "128": 0,
+            "129": 0,
+            "130": 0,
+            "131": 0,
+            "132": 0,
+            "133": 0,
+            "135": 0,
+            "136": 0,
+            "138": 0,
+            "139": 0,
+            "140": 0,
+            "143": 0,
+            "144": 0,
+            "145": 0,
+            "148": 0,
+            "149": 0,
+            "150": 0,
+            "151": 0,
+            "152": 0,
+            "155": 0,
+            "156": 0
+          },
+          "Branches": [
+            {
+              "Line": 112,
+              "Offset": 94,
+              "EndOffset": 96,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 112,
+              "Offset": 94,
+              "EndOffset": 123,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 284,
+              "EndOffset": 289,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 749,
+              "EndOffset": 754,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 1350,
+              "EndOffset": 1352,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 138,
+              "Offset": 1350,
+              "EndOffset": 1402,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 122,
+              "Offset": 749,
+              "EndOffset": 1543,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 1638,
+              "EndOffset": 1568,
+              "Path": 1,
+              "Ordinal": 9,
+              "Hits": 0
+            },
+            {
+              "Line": 148,
+              "Offset": 1638,
+              "EndOffset": 1640,
+              "Path": 0,
+              "Ordinal": 8,
+              "Hits": 0
+            },
+            {
+              "Line": 114,
+              "Offset": 284,
+              "EndOffset": 1689,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\Account\\Manage\\Index.cshtml.cs": {
+      "Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel": {
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel::get_Username()": {
+          "Lines": {
+            "33": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel::get_StatusMessage()": {
+          "Lines": {
+            "40": 0
+          },
+          "Branches": []
+        },
+        "Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/InputModel Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel::get_Input()": {
+          "Lines": {
+            "47": 0
+          },
+          "Branches": []
+        },
+        "System.Void Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel::.ctor(Microsoft.AspNetCore.Identity.UserManager`1<Mercadona.Models.MercadonaUser>,Microsoft.AspNetCore.Identity.SignInManager`1<Mercadona.Models.MercadonaUser>)": {
+          "Lines": {
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/InputModel": {
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/InputModel::get_PhoneNumber()": {
+          "Lines": {
+            "61": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/<LoadAsync>d__16": {
+        "System.Void Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/<LoadAsync>d__16::MoveNext()": {
+          "Lines": {
+            "65": 0,
+            "66": 0,
+            "67": 0,
+            "69": 0,
+            "71": 0,
+            "72": 0,
+            "73": 0,
+            "74": 0,
+            "75": 0
+          },
+          "Branches": []
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/<OnGetAsync>d__17": {
+        "System.Void Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/<OnGetAsync>d__17::MoveNext()": {
+          "Lines": {
+            "78": 0,
+            "79": 0,
+            "80": 0,
+            "81": 0,
+            "82": 0,
+            "85": 0,
+            "86": 0,
+            "87": 0
+          },
+          "Branches": [
+            {
+              "Line": 80,
+              "Offset": 180,
+              "EndOffset": 182,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 80,
+              "Offset": 180,
+              "EndOffset": 242,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      },
+      "Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/<OnPostAsync>d__18": {
+        "System.Void Mercadona.Areas.Identity.Pages.Account.Manage.IndexModel/<OnPostAsync>d__18::MoveNext()": {
+          "Lines": {
+            "90": 0,
+            "91": 0,
+            "92": 0,
+            "93": 0,
+            "94": 0,
+            "97": 0,
+            "98": 0,
+            "99": 0,
+            "100": 0,
+            "103": 0,
+            "104": 0,
+            "105": 0,
+            "106": 0,
+            "107": 0,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 0,
+            "114": 0,
+            "115": 0,
+            "116": 0,
+            "117": 0
+          },
+          "Branches": [
+            {
+              "Line": 92,
+              "Offset": 212,
+              "EndOffset": 214,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 212,
+              "EndOffset": 274,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 297,
+              "EndOffset": 302,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 97,
+              "Offset": 297,
+              "EndOffset": 430,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 600,
+              "EndOffset": 605,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 779,
+              "EndOffset": 781,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 779,
+              "EndOffset": 816,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            },
+            {
+              "Line": 104,
+              "Offset": 600,
+              "EndOffset": 824,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Users\\laura\\source\\repos\\heroku\\Mercadona\\Mercadona\\Areas\\Identity\\Pages\\Account\\Manage\\ManageNavPages.cs": {
+      "Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages": {
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_Index()": {
+          "Lines": {
+            "20": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_Email()": {
+          "Lines": {
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_ChangePassword()": {
+          "Lines": {
+            "32": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_DownloadPersonalData()": {
+          "Lines": {
+            "38": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_DeletePersonalData()": {
+          "Lines": {
+            "44": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_ExternalLogins()": {
+          "Lines": {
+            "50": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_PersonalData()": {
+          "Lines": {
+            "56": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::get_TwoFactorAuthentication()": {
+          "Lines": {
+            "62": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::IndexNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "68": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::EmailNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "74": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::ChangePasswordNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "80": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::DownloadPersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "86": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::DeletePersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "92": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::ExternalLoginsNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "98": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::PersonalDataNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "104": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::TwoFactorAuthenticationNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext)": {
+          "Lines": {
+            "110": 0
+          },
+          "Branches": []
+        },
+        "System.String Mercadona.Areas.Identity.Pages.Account.Manage.ManageNavPages::PageNavClass(Microsoft.AspNetCore.Mvc.Rendering.ViewContext,System.String)": {
+          "Lines": {
+            "117": 0,
+            "118": 0,
+            "119": 0,
+            "120": 0,
+            "121": 0
+          },
+          "Branches": [
+            {
+              "Line": 118,
+              "Offset": 23,
+              "EndOffset": 25,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 118,
+              "Offset": 23,
+              "EndOffset": 42,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 51,
+              "EndOffset": 53,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 120,
+              "Offset": 51,
+              "EndOffset": 56,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    }
+  }
+}
