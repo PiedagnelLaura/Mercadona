@@ -14,38 +14,7 @@ namespace Mercadona.Bogus
         {
             try
             {
-
-                var user = new MercadonaUser
-                {
-                    Id = "firstUser",
-                    UserName = "admin@admin.com",
-                    NormalizedUserName = "ADMIN@ADMIN.COM",
-                    Email = "admin@admin.com",
-                    NormalizedEmail = "ADMIN@ADMIN.COM",
-                    EmailConfirmed = true,
-                    PasswordHash = "AQAAAAEAACcQAAAAECZFnQT0SkR5sCmyqpx8kViJZ9GKPBh6BeVy5J9MlKyi6shn95oC+/ISIlrsshlyvg==",
-                    SecurityStamp = "GYA3AGUEBQ5LKI3E53WETVQDAFRLXQP4",
-                    ConcurrencyStamp= "8c5c873f-8c5a-40be-9185-a64280329458",
-                    LockoutEnabled= true,
-                };
-                
-
-                var role = new IdentityRole
-                {
-                    Id = "firstRole",
-                    Name = "Administrator",
-                    NormalizedName = "Administrator"
-
-                };
-                
-                var userRole = new IdentityUserRole<string>
-                {
-                    RoleId = role.Id,
-                    UserId = user.Id
-                };
-                
-
-                var random = new Random();
+                Random random = new Random();
 
                 List<Category> categories = new List<Category>
                 {
@@ -57,13 +26,13 @@ namespace Mercadona.Bogus
                 };
 
                 List<Offer> offers = new List<Offer>();
-                var offerFaker = new OfferFaker();
+                OfferFaker offerFaker = new OfferFaker();
                 for (int i = 0; i < 20; i++)
                 {
-                    var randomDiscount = new Random();
+                    Random randomDiscount = new Random();
 
-                    var fakeOffer = offerFaker.Generate();
-                    var offer = new Offer
+                    Offer fakeOffer = offerFaker.Generate();
+                    Offer offer = new Offer
                     {
                         StartDate = fakeOffer.StartDate,
                         EndDate = fakeOffer.EndDate,
@@ -74,15 +43,15 @@ namespace Mercadona.Bogus
                 }
 
                 List<Product> products = new List<Product>();
-                var productFaker = new ProductFaker();
+                ProductFaker productFaker = new ProductFaker();
                 for (int i = 0; i < 20; i++)
                 {
                     int randomIndexCat = random.Next(0, categories.Count);
 
-                    var randomIndexOffer = random.Next(0, offers.Count);
+                    int randomIndexOffer = random.Next(0, offers.Count);
 
-                    var fakeProduct = productFaker.Generate();
-                    var product = new Product
+                    Product fakeProduct = productFaker.Generate();
+                    Product product = new Product
                     {
                         Name = fakeProduct.Name,
                         Description = fakeProduct.Description,
@@ -96,6 +65,35 @@ namespace Mercadona.Bogus
                     }
                     products.Add(product);
                 }
+
+                MercadonaUser user = new MercadonaUser
+                {
+                    Id = "firstUser",
+                    UserName = "admin@admin.com",
+                    NormalizedUserName = "ADMIN@ADMIN.COM",
+                    Email = "admin@admin.com",
+                    NormalizedEmail = "ADMIN@ADMIN.COM",
+                    EmailConfirmed = true,
+                    PasswordHash = "AQAAAAEAACcQAAAAECZFnQT0SkR5sCmyqpx8kViJZ9GKPBh6BeVy5J9MlKyi6shn95oC+/ISIlrsshlyvg==",
+                    SecurityStamp = "GYA3AGUEBQ5LKI3E53WETVQDAFRLXQP4",
+                    ConcurrencyStamp = "8c5c873f-8c5a-40be-9185-a64280329458",
+                    LockoutEnabled = true,
+                };
+
+
+                IdentityRole role = new IdentityRole
+                {
+                    Id = "firstRole",
+                    Name = "Administrator",
+                    NormalizedName = "Administrator"
+
+                };
+
+                IdentityUserRole<string> userRole = new IdentityUserRole<string>
+                {
+                    RoleId = role.Id,
+                    UserId = user.Id
+                };
 
 
                 dbContext.Users.Add(user);
