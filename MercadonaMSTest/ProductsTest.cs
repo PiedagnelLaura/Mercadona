@@ -9,6 +9,9 @@ using Mercadona.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using System.Data.Entity;
+using NLog;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
 namespace MercadonaMSTest
 {
@@ -23,6 +26,7 @@ namespace MercadonaMSTest
             _options = new DbContextOptionsBuilder<MercadonaDbContext>()
                 .UseInMemoryDatabase(databaseName: "MercadonnaTest")
                 .Options;
+
         }
 
         [TestMethod]
@@ -36,7 +40,7 @@ namespace MercadonaMSTest
                 dbContext.Products.AddRange(testProducts);
                 dbContext.SaveChanges();
 
-                var controller = new ProductsController(dbContext);
+                var controller = new ProductsController(dbContext, null);
 
                 // Act
                 var result = await controller.Index() as ViewResult;
@@ -50,10 +54,13 @@ namespace MercadonaMSTest
         [TestMethod]
         public async Task CreateOneProduct()
         {
+
+            var loggerFactory = new LoggerFactory().AddNLog();
             using (var dbContext = new MercadonaDbContext(_options))
             {
                 // Arrange
-                var controller = new ProductsController(dbContext);
+                var logger = loggerFactory.CreateLogger<ProductsController>();
+                var controller = new ProductsController(dbContext, logger);
                 Product newProduct = new Product
                 {
                     Id = 56,
@@ -98,7 +105,7 @@ namespace MercadonaMSTest
                     OfferId = offer.Id
                 };
 
-                var controller = new ProductsController(dbContext);
+                var controller = new ProductsController(dbContext, null);
 
                 // Act
                 var result = await controller.AddOffer(model);

@@ -5,6 +5,8 @@ using Mercadona.Models;
 using Mercadona.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
+using NLog.Extensions.Logging;
 
 namespace MercadonaMSTest
 {
@@ -19,6 +21,8 @@ namespace MercadonaMSTest
             var dbContextOptions = new DbContextOptionsBuilder<MercadonaDbContext>()
                 .UseInMemoryDatabase(databaseName: "MercadonaTest")
                 .Options;
+
+            var loggerFactory = new LoggerFactory().AddNLog();
 
             using (var dbContext = new MercadonaDbContext(dbContextOptions))
             {
@@ -44,7 +48,8 @@ namespace MercadonaMSTest
                 decimal expectedPrice = Math.Round(product.Price - (product.Price * product.Offer.Discount / 100), 2);
 
                 // On fait appel au controller et au viewModel
-                var controller = new HomeController(null, dbContext);
+                var logger = loggerFactory.CreateLogger<HomeController>();
+                var controller = new HomeController(logger, dbContext);
                 var addData = new AddData();
 
                 // Act
